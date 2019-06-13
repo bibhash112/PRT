@@ -124,18 +124,17 @@ weight: 3
 -   [How deploy a SOX application in PROD environment without joining a Release event(Non-CDRM) in URelease.](#59)
 
 
+
 ### <a id="1"> </a> Q1) Not able to login to uDeploy and not able to see my application uDeploy.
 	     Please contact your application admin and get access to Development AD group to get the access for your application	   
- [Go](https://apps.na.collabserv.com/wikis/home/wiki/W8a035710e5dd_4861_adc6_1db5506a4cab/page/uDeploy%20and%20uRelease%20FAQs?lang=en-us&section=jive_content_id_Q59)![](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/47401f47-9b8b-4522-b66c-de37b44997ac/media/V15_pastedImage_0.png?preventCache=1552310394905)  back to Questions!
     
 ### <a id="2"> </a>Q2) I am not able to see my application in uDeploy.
     
 		- Could you please check in your sDaaS you have selected Software Release Automation as Yes or No.
         - If you selected as No please go to modify request from Estore and change it to  Yes  fill the required fields and submit the request.
 ![image001.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/9554da8c-fc38-4eb1-ac81-baef29cb66a7/media/V15_image001.png?preventCache=1552310394905)
- [Go](https://apps.na.collabserv.com/wikis/home/wiki/W8a035710e5dd_4861_adc6_1db5506a4cab/page/uDeploy%20and%20uRelease%20FAQs?lang=en-us&section=jive_content_id_Q59)![](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/47401f47-9b8b-4522-b66c-de37b44997ac/media/V15_pastedImage_0.png?preventCache=1552310394905)  back to Questions!  
-    
-    
+
+        
 ### <a id="3"> </a> Q3) How to modify the AD group for our application as we have done segrigation of duties.
     
 	     Please go to modify request from Estore and select your application.
@@ -143,19 +142,19 @@ weight: 3
 
 	     It will auto populate the all the details please do necessary changes and submit the request.
    ![image003.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/15d49994-6037-4a7c-9151-a267cc3cfd5f/media/V15_image003.png?preventCache=1552310394905)
-  ![](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/9267fa9e-98d2-4972-8f03-92de25c0821e/media/28_V15_pastedImage_3.png?preventCache=1552310394905)  
+    
 
 ### <a id="4"> </a> Q4) Should we suppose to submit separate stack creation requests for Dev, Stage, LT& Prod lifecycles of my Application?]
     
 	     Stack can be ordered for all the available lifecycles in a single order. If you have requested only Dev for now and if you want to request other life cycle you can use sDaaS modify request from Estore.
 
-![](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/9267fa9e-98d2-4972-8f03-92de25c0821e/media/28_V15_pastedImage_3.png?preventCache=1552310394905)    
+    
 
 ### <a id="5"> </a>Q5)  For  one application, POM file was not published to artifactory and hence uDeploy could not download the exact file it was looking for.
     
 	     After including **.pom in Jenkins configuration include pattern and generating a new build, the required POM and tar.gz files are pushed to Artifactory & uDeploy is able to pull the file from artifactory successfully.
 ![image004.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/64c89a74-7517-4cdc-9a1a-1d05c0ab0391/media/V15_image004.png?preventCache=1552310394905)
-![](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/9267fa9e-98d2-4972-8f03-92de25c0821e/media/28_V15_pastedImage_3.png?preventCache=1552310394905)    
+    
 
 ### <a id="6"> </a>Q6) Build  is successful, but version import is failing in uDeploy or Latest Versions are not getting imported in UDeploy; getting a notification as “Version import failed! Check the component’s configuration for more details”:
     
@@ -166,7 +165,7 @@ weight: 3
 	 -  Also maven-metadata.xml has to be present in the artifactory's project folder.
      -  In artifactory’s maven-metadata.xml, check if the latest version has mapped and the latest version folder is present in ascending order with the latest time stamp.
      -  If any mismatch found in Udeploy and artifactory configuration, if you would want to change the configuration in udeploy then it can be modified through estore’s SDaaS Modify option
-![](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/9267fa9e-98d2-4972-8f03-92de25c0821e/media/28_V15_pastedImage_3.png?preventCache=1552310394905)    
+    
 
 ### <a id="7"> </a>Q7) uDeploy is able to pick the artifact from the artifactory but it is not starting the deployment
     
@@ -180,12 +179,12 @@ weight: 3
      -   Please do verify the version number in both Artifactory and Udeploy’s Component Configuration.
      -   If the build is not uploaded in artifactory, then please do check the Jenkins configuration.
      -   If the latest version is present in artifactory and not par with Udeploy, then check & correct the configuration as in the 6th FAQ (Latest Versions are not getting imported in U-Deploy; getting as “Version import failed! Check your component configuration”). If in case not able to resolve the issue, then please do raise a ticket to SRA-Tier1 in Service now under Release Automation service offering or contact  [sra-sdaas-support@cisco.com](mailto:sra-sdaas-support@cisco.com).
- ![](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/9267fa9e-98d2-4972-8f03-92de25c0821e/media/28_V15_pastedImage_3.png?preventCache=1552310394905)
+ 
       
 ### <a id="8"> </a>Q8)  How  do I change the Artifact ID for my already provisioned application in uDeploy?
     
          Go to estore sDaas Modify Request http://estore.cisco.com/RequestCenter/servicecatalog/servicecatalog.do?route=offer&id=655 and order for the change of artifact Id .
-![](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/9267fa9e-98d2-4972-8f03-92de25c0821e/media/28_V15_pastedImage_3.png?preventCache=1552310394905)
+
     
 ### <a id="9"> </a>Q9) How to deploy the code manually in uDeploy?
     
@@ -195,19 +194,38 @@ weight: 3
  ![image007.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/fcdc5972-ee46-46d2-a6c9-a7ab0896f3e6/media/1_V15_image007.png?preventCache=1552310394905)
     
         However it is recommended to use uRelease to deploy to any non-Dev environment to not to violate SOX . 
-![](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/9267fa9e-98d2-4972-8f03-92de25c0821e/media/28_V15_pastedImage_3.png?preventCache=1552310394905)
+
     
 ### <a id="10"> </a>Q10) how to check the deployment log?
     
     -   In uDeploy navigate to Applications> go to your application > in environment tab there will be environments> click on the environment dropdown > click on view request there you will see the details log   
- ![image008.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/6aef085f-ea00-4540-9ef9-186cb68ed3f7/media/V15_image008.png?preventCache=1552310394905)![](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/9267fa9e-98d2-4972-8f03-92de25c0821e/media/28_V15_pastedImage_3.png?preventCache=1552310394905) 
+ ![image008.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/6aef085f-ea00-4540-9ef9-186cb68ed3f7/media/V15_image008.png?preventCache=1552310394905) 
 
 ### <a id="11"> </a>Q11) How to create a snapshot for the release?
     
     -   In uDeploy navigate to Applications> go to your application > in environment tab there will be environments> click on camera button or go to snapshot tab and click on create
     
-   [![image007.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/1c59d1aa-c1b3-4b5b-b034-3eab71171b88/media/V15_image007.png?preventCache=1552310394905)](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/1c59d1aa-c1b3-4b5b-b034-3eab71171b88/media/V15_image007.png)[
-   ![](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/9267fa9e-98d2-4972-8f03-92de25c0821e/media/28_V15_pastedImage_3.png?preventCache=1552310394905)
+   [![image007.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/1c59d1aa-c1b3-4b5b-b034-3eab71171b88/media/V15_image007.png?preventCache=1552310394905)](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/1c59d1aa-c1b3-4b5b-b034-3eab71171b88/media/V15_image007.png)
+    
+### <a id="12"> </a>Q12) How to schedule the deployment in udeploy?
+    
+    -   In uDeploy navigate to Calendar > click on Schedule process > select the application, process, date and time
+    
+    
+### <a id="13"> </a>Q13) I have created a snapshot in uDeploy still I am not able to see in uRelease?
+    
+    -   Once you create snapshot you need to wait for 10 min to integrate it with uRelease.
+    
+        
+### <a id="14"> </a>Q14) How to schedule the deployment in uRelease?
+    
+    -   In uRelease navigate Deployments> Add New Scheduled Deployment > select the release  name ,  phase and versions with schedule date and time.
+    
+    
+### <a id="15"> </a>Q15) In  uRelease, Gate Status is Failed ,1 Missing Quality Status, CI Setup(Failed) is shown when trying to deploy
+    
+    -   User needs to go to Execution and Deployment Plan and add the missing Gate (CI Setup) by clicking on the + symbol under Quality Status
+![image010.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/1290b0ab-d18e-4690-ba49-833dc898a00b/media/V15_image010.png?preventCache=1552310394905)
 
 
 
