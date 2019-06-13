@@ -4,7 +4,6 @@ title: "Overview"
 weight: 1
 ---
 
-# Overview
 
 IBM UrbanCode  [Deploy](https://hackmd.cisco.com/9EW7DRLfTCu8NsR_W7BSQA)  is a tool for automating application deployments in multiple environments.
 

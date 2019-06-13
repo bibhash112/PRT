@@ -4,7 +4,6 @@ title: "Getting Started"
 weight: 2
 ---
 
-# Getting Started
 
 **Software Development Stack (SDaaS) request process**
 
