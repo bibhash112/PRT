@@ -4,4 +4,4 @@ title: "Resources"
 weight: 4
 ---
 
-[Link text](:doc:/single-stack-lae)
+[Link text](:code-deploy-content:/single-stack-lae.md)
