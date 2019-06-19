@@ -1,10 +1,3 @@
----
-title: "XYZ"
-
-weight: 5
----
-
-
 
 Software Development Stack (SDaaS) for Advanced Deployment (LAE)
 
