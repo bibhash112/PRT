@@ -4,10 +4,10 @@ title: "Resources"
 weight: 4
 ---
 
-[* Singlestack LAE Process](single-stack-lae.md)
+[* Singlestack LAE Process](single-stack-lae)
 
-[* Multistack LAE Process](multi-stack-lae.md)
+[* Multistack LAE Process](multi-stack-lae)
 
-[* CCIX](ccix.md)
+[* CCIX](ccix)
 
-[* CAE](cae.md)
+[* CAE](cae)
