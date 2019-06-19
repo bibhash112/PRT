@@ -4,9 +4,4 @@ title: "Resources"
 weight: 4
 ---
 
-Content Coming Soon...
-
-
-
-
-
+[Link text](:doc:/single-stack-lae)
