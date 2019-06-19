@@ -1,3 +1,8 @@
+---
+title: "Single-stack-lae"
+
+weight: 5
+---
 Software Development Stack (SDaaS) for Advanced Deployment (LAE)
 
 Multiple pipeline feature is an advance use case for deployment. It enables the application development teams to work on different  features concurrently by utilizing the option of having single application stack wired up for multiple development and deployment pipelines including standard and custom life cycles offered by LAE runtime platform.
