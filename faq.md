@@ -4,136 +4,136 @@ title: "FAQ"
 weight: 3
 ---
 
--   [Q1) Not able to login to uDeploy and not able to see my application uDeploy.](#1)
+-   [Not able to login to uDeploy and not able to see my application uDeploy.](#1)
     
--   [Q2) I am not able to see my application in uDeploy.](#2)
+-   [I am not able to see my application in uDeploy.](#2)
     
--   [Q3) How to modify the AD group for our application as we have done segregation of duties.](#3)
+-   [How to modify the AD group for our application as we have done segregation of duties.](#3)
     
--   [Q4) Should we suppose to submit separate stack creation requests for Dev, Stage, LT& Prod lifecycles of my Application?](#4)
+-   [Should we suppose to submit separate stack creation requests for Dev, Stage, LT& Prod lifecycles of my Application?](#4)
     
--   [Q5) For one application, POM file was not published to artifactory and hence uDeploy could not download the exact file it was looking for.](#5)
+-   [For one application, POM file was not published to artifactory and hence uDeploy could not download the exact file it was looking for.](#5)
     
--   [Q6) Build is successful, but version import is failing in uDeploy or Latest Versions are not getting imported in UDeploy; getting a notification as “Version import failed! Check the component’s configuration for more details”:](#6)
+-   [Build is successful, but version import is failing in uDeploy or Latest Versions are not getting imported in UDeploy; getting a notification as “Version import failed! Check the component’s configuration for more details”:](#6)
     
--   [Q7) uDeploy is able to pick the artifact from the artifactory but it is not starting the deployment](#7)
+-   [uDeploy is able to pick the artifact from the artifactory but it is not starting the deployment](#7)
     
--   [Q8) How do I change the Artifact ID for my already provisioned application in uDeploy?](#8)
+-   [How do I change the Artifact ID for my already provisioned application in uDeploy?](#8)
     
--   [Q9) How to deploy the code manually in uDeploy?](#9)
+-   [How to deploy the code manually in uDeploy?](#9)
     
--   [Q10) How to check the deployment log?](#10)
+-   [How to check the deployment log?](#10)
     
--   [Q11) How to create a snapshot for the release?](#11)
+-   [How to create a snapshot for the release?](#11)
     
--   [Q12) How to schedule the deployment in udeploy?](#12)
+-   [How to schedule the deployment in udeploy?](#12)
     
--   [Q13) I have created a snapshot in uDeploy still I am not able to see in uRelease?](#13)
+-   [I have created a snapshot in uDeploy still I am not able to see in uRelease?](#13)
     
--   [Q14) How to schedule the deployment in uRelease?](#14)
+-   [How to schedule the deployment in uRelease?](#14)
     
--   [Q15) In uRelease, Gate Status is Failed ,1 Missing Quality Status, CI Setup(Failed) is shown when trying to deploy](#15)
+-   [In uRelease, Gate Status is Failed ,1 Missing Quality Status, CI Setup(Failed) is shown when trying to deploy](#15)
     
--   [Q16) I have schedule a deployment in uRelease but deployment has not started automatically?](#16)
+-   [I have schedule a deployment in uRelease but deployment has not started automatically?](#16)
     
--   [Q17) After snapshot creation, Start Deployment button was not available.](#17)
+-   [After snapshot creation, Start Deployment button was not available.](#17)
     
--   [Q18) Deployment successful in uDeploy, but latest war file is not updated to tomcat Dev/Stage/Prod server](#18)
+-   [QDeployment successful in uDeploy, but latest war file is not updated to tomcat Dev/Stage/Prod server](#18)
     
--   [Q19) How to deploy an old version in udeploy](#19)
+-   [How to deploy an old version in udeploy](#19)
     
--   [Q20) Version import is taking a lot of time, would be started 2 hours back and still in Executing status.](#20)
+-   [Version import is taking a lot of time, would be started 2 hours back and still in Executing status.](#20)
     
--   [Q21) Deletion of a sDaaS stack required due to inappropriate information provided](#21)
+-   [Deletion of a sDaaS stack required due to inappropriate information provided](#21)
     
--   [Q22) Latest snapshot not getting updated quickly in uRelease](#22)
+-   [Latest snapshot not getting updated quickly in uRelease](#22)
     
--   [Q23) Deployment is successful in uDeploy but the restart of CCIX application is not happening after deployment to dev/stage/lt/prod](#23)
+-   [Deployment is successful in uDeploy but the restart of CCIX application is not happening after deployment to dev/stage/lt/prod](#23)
     
--   [Q24) Submitted SdaaS request # , however it is still showing 0% complete.](#24)
+-   [Submitted SdaaS request # , however it is still showing 0% complete.](#24)
     
--   [Q25) For one application, steps are not present in application process.](#25)
+-   [For one application, steps are not present in application process.](#25)
     
--   [Q26) User not able to see Application in pipeline view but stack is configured.](#26)
+-   [User not able to see Application in pipeline view but stack is configured.](#26)
     
--   [Q27) Build is not proper as it is going to ext-release-local instead of ext-snapshot-local](#27)
+-   [Build is not proper as it is going to ext-release-local instead of ext-snapshot-local](#27)
     
--   [Q28) While trying to add Quality Status,user does not see the required quality status/gate in dropdown (Ex:CI Setup)](#28)
+-   [While trying to add Quality Status,user does not see the required quality status/gate in dropdown (Ex:CI Setup)](#28)
     
--   [Q29) While migrating a project from ANT to MAVEN, user will need to upload jars to Cisco Repository.](#29)
+-   [While migrating a project from ANT to MAVEN, user will need to upload jars to Cisco Repository.](#29)
     
--   [Q30) How to restore the deployment task if accidentally deleted by a team member?](#30)
+-   [How to restore the deployment task if accidentally deleted by a team member?](#30)
     
--   [Q31) How to add or apply the freeze to our applications.](#31)
+-   [How to add or apply the freeze to our applications.](#31)
     
--   [Q32) Failed to start Task: problem with doOnURl](#32)
+-   [Failed to start Task: problem with doOnURl](#32)
     
--   [Q33) How can I deploy old snapshot in URelease?](#33)
+-   [How can I deploy old snapshot in URelease?](#33)
     
--   [Q34) Udeploy Deployment fails with the Error: Deployment has failed in UDeploy with the error output “jbossews process failed to start” and “Error deploying local file. You can try to deploy manually with:ssh –t…”](#34)
+-   [Udeploy Deployment fails with the Error: Deployment has failed in UDeploy with the error output “jbossews process failed to start” and “Error deploying local file. You can try to deploy manually with:ssh –t…”](#34)
     
--   [Q35) How to promote snapshot from Dev to Upper Environments?](#35)
+-   [How to promote snapshot from Dev to Upper Environments?](#35)
     
--   [Q36) How to add a new environment in Udeploy and URelease?](#36)
+-   [How to add a new environment in Udeploy and URelease?](#36)
     
--   [Q37) User not able to access uDeploy although he is a part of AD group specified while raising Sdaas stack. (AD Sync issue)](#37)
+-   [User not able to access uDeploy although he is a part of AD group specified while raising Sdaas stack. (AD Sync issue)](#37)
     
--   [Q38) While ordering for SdaaS stack the below error occurs for user](#38)
+-   [While ordering for SdaaS stack the below error occurs for user](#38)
     
--   [Q39) How to set email notifications for any deployments/task/segments in uRelease?](#39)
+-   [How to set email notifications for any deployments/task/segments in uRelease?](#39)
     
--   [Q40) How to check whether the application is SOX or NON-SOX application?](#40)
+-   [How to check whether the application is SOX or NON-SOX application?](#40)
     
--   [Q41) How to request membership for particular AD group?](#41)
+-   [How to request membership for particular AD group?](#41)
     
--   [Q42) How to import version manually?](#42)
+-   [How to import version manually?](#42)
     
--   [Q43) How to create build for multistack application?](#44)
+-   [How to create build for multistack application?](#44)
     
--   [Q44) What needs to be done when the deployment log shows version already installed?](#44)
+-   [What needs to be done when the deployment log shows version already installed?](#44)
     
--   [Q45) How to change Informatica SOX application to NON SOX application?](#45)
+-   [How to change Informatica SOX application to NON SOX application?](#45)
     
--   [Q46) Unable to approve Snapshot for PROD deployment?](#46)
+-   [Unable to approve Snapshot for PROD deployment?](#46)
     
--   [Q47) Passsed Validation Gate not added?](#47)
+-   [Passsed Validation Gate not added?](#47)
     
--   [Q48) Teradata Deployment Guide.](#48)
+-   [Teradata Deployment Guide.](#48)
     
--   [Q49) uDeploy User Guide for OBIEE.](#49)
+-   [uDeploy User Guide for OBIEE.](#49)
     
--   [Q50) Change/Setup environment variable in SFDC workflow in uDeploy](#50)
+-   [Change/Setup environment variable in SFDC workflow in uDeploy](#50)
     
--   [Q51) What to do if no Sys ID gate is getting added in uRelease ?](#51)
+-   [What to do if no Sys ID gate is getting added in uRelease ?](#51)
     
--   [Q52) What to do if application is Non-SOX in uDeploy but SOX gate is added in uRelease OR vice versa](#52)
+-   [What to do if application is Non-SOX in uDeploy but SOX gate is added in uRelease OR vice versa](#52)
     
--   [Q53) Gate failed as waiting to join event/ Release ?](#53)
+-   [Gate failed as waiting to join event/ Release ?](#53)
     
--   [Q54) Version not imported to udeploy for CAE applications](#54)
+-   [Version not imported to udeploy for CAE applications](#54)
     
--   [Q55) Sox validation in uDeploy/uRelease through Rally .](#55)
+-   [Sox validation in uDeploy/uRelease through Rally .](#55)
     
--   [Q56) Snapshots failing at SOX validation step (Rally).](#56)
+-   [Snapshots failing at SOX validation step (Rally).](#56)
     
--   [Q57) Tags not imported in uDeploy for CAE application.](#57)
+-   [Tags not imported in uDeploy for CAE application.](#57)
     
--   [Q58) If no tags are found in Quay(containers.cisco.com) even after the Jenkins build, then below snippet has to be added from the Jenkins end.](#58)
+-   [If no tags are found in Quay(containers.cisco.com) even after the Jenkins build, then below snippet has to be added from the Jenkins end.](#58)
     
--   [Q59) How deploy a SOX application in PROD environment without joining a Release event(Non-CDRM) in URelease.](#59)
+-   [How deploy a SOX application in PROD environment without joining a Release event(Non-CDRM) in URelease.](#59)
 
 
-### <a id="1"> </a> Q1) Not able to login to uDeploy and not able to see my application uDeploy.
+### <a id="1"> </a> Not able to login to uDeploy and not able to see my application uDeploy.
 	     Please contact your application admin and get access to Development AD group to get the access for your application	   
     
-### <a id="2"> </a>Q2) I am not able to see my application in uDeploy.
+### <a id="2"> </a> I am not able to see my application in uDeploy.
     
 		- Could you please check in your sDaaS you have selected Software Release Automation as Yes or No.
         - If you selected as No please go to modify request from Estore and change it to  Yes  fill the required fields and submit the request.
 ![image001.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/9554da8c-fc38-4eb1-ac81-baef29cb66a7/media/V15_image001.png?preventCache=1552310394905)
 
         
-### <a id="3"> </a> Q3) How to modify the AD group for our application as we have done segrigation of duties.
+### <a id="3"> </a> How to modify the AD group for our application as we have done segrigation of duties.
     
 	     Please go to modify request from Estore and select your application.
 ![image002.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/fe4cc408-b29b-4bff-8fdd-26db1e425026/media/V15_image002.png?preventCache=1552310394905)
@@ -142,19 +142,19 @@ weight: 3
    ![image003.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/15d49994-6037-4a7c-9151-a267cc3cfd5f/media/V15_image003.png?preventCache=1552310394905)
     
 
-### <a id="4"> </a> Q4) Should we suppose to submit separate stack creation requests for Dev, Stage, LT& Prod lifecycles of my Application?]
+### <a id="4"> </a> Should we suppose to submit separate stack creation requests for Dev, Stage, LT& Prod lifecycles of my Application?]
     
 	     Stack can be ordered for all the available lifecycles in a single order. If you have requested only Dev for now and if you want to request other life cycle you can use sDaaS modify request from Estore.
 
     
 
-### <a id="5"> </a>Q5)  For  one application, POM file was not published to artifactory and hence uDeploy could not download the exact file it was looking for.
+### <a id="5"> </a> For  one application, POM file was not published to artifactory and hence uDeploy could not download the exact file it was looking for.
     
 	     After including **.pom in Jenkins configuration include pattern and generating a new build, the required POM and tar.gz files are pushed to Artifactory & uDeploy is able to pull the file from artifactory successfully.
 ![image004.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/64c89a74-7517-4cdc-9a1a-1d05c0ab0391/media/V15_image004.png?preventCache=1552310394905)
     
 
-### <a id="6"> </a>Q6) Build  is successful, but version import is failing in uDeploy or Latest Versions are not getting imported in UDeploy; getting a notification as “Version import failed! Check the component’s configuration for more details”:
+### <a id="6"> </a> Build  is successful, but version import is failing in uDeploy or Latest Versions are not getting imported in UDeploy; getting a notification as “Version import failed! Check the component’s configuration for more details”:
     
 	     Please check if "Import Versions Automatically" section has been checked in UDeploy's Component configuration of the specific application as it has to be checked for versions to import automatically into UDeploy, else the version has to be imported manually.
 ![](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/e73f2b8f-d46a-479e-a44b-f3d5ac148ce0/media/V15_pastedImage_88.png?preventCache=1552310394905)
@@ -165,7 +165,7 @@ weight: 3
      -  If any mismatch found in Udeploy and artifactory configuration, if you would want to change the configuration in udeploy then it can be modified through estore’s SDaaS Modify option
     
 
-### <a id="7"> </a>Q7) uDeploy is able to pick the artifact from the artifactory but it is not starting the deployment
+### <a id="7"> </a> uDeploy is able to pick the artifact from the artifactory but it is not starting the deployment
     
       -  “Run process after creating a new version “field is not selected in component configuration to
     
@@ -179,12 +179,12 @@ weight: 3
      -   If the latest version is present in artifactory and not par with Udeploy, then check & correct the configuration as in the 6th FAQ (Latest Versions are not getting imported in U-Deploy; getting as “Version import failed! Check your component configuration”). If in case not able to resolve the issue, then please do raise a ticket to SRA-Tier1 in Service now under Release Automation service offering or contact  [sra-sdaas-support@cisco.com](mailto:sra-sdaas-support@cisco.com).
  
       
-### <a id="8"> </a>Q8)  How  do I change the Artifact ID for my already provisioned application in uDeploy?
+### <a id="8"> </a>  How  do I change the Artifact ID for my already provisioned application in uDeploy?
     
          Go to estore sDaas Modify Request http://estore.cisco.com/RequestCenter/servicecatalog/servicecatalog.do?route=offer&id=655 and order for the change of artifact Id .
 
     
-### <a id="9"> </a>Q9) How to deploy the code manually in uDeploy?
+### <a id="9"> </a> How to deploy the code manually in uDeploy?
     
       -  In uDeploy navigate to  Applications>  go to your application > in environment tab there will be
     
@@ -194,93 +194,93 @@ weight: 3
         However it is recommended to use uRelease to deploy to any non-Dev environment to not to violate SOX . 
 
     
-### <a id="10"> </a>Q10) how to check the deployment log?
+### <a id="10"> </a> how to check the deployment log?
     
     -   In uDeploy navigate to Applications> go to your application > in environment tab there will be environments> click on the environment dropdown > click on view request there you will see the details log   
  ![image008.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/6aef085f-ea00-4540-9ef9-186cb68ed3f7/media/V15_image008.png?preventCache=1552310394905) 
 
-### <a id="11"> </a>Q11) How to create a snapshot for the release?
+### <a id="11"> </a> How to create a snapshot for the release?
     
     -   In uDeploy navigate to Applications> go to your application > in environment tab there will be environments> click on camera button or go to snapshot tab and click on create
  ![image007.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/1c59d1aa-c1b3-4b5b-b034-3eab71171b88/media/V15_image007.png?preventCache=1552310394905)   
     
-### <a id="12"> </a>Q12) How to schedule the deployment in udeploy?
+### <a id="12"> </a> How to schedule the deployment in udeploy?
     
     -   In uDeploy navigate to Calendar > click on Schedule process > select the application, process, date and time
     
     
-### <a id="13"> </a>Q13) I have created a snapshot in uDeploy still I am not able to see in uRelease?
+### <a id="13"> </a> I have created a snapshot in uDeploy still I am not able to see in uRelease?
     
     -   Once you create snapshot you need to wait for 10 min to integrate it with uRelease.
     
         
-### <a id="14"> </a>Q14) How to schedule the deployment in uRelease?
+### <a id="14"> </a> How to schedule the deployment in uRelease?
     
     -   In uRelease navigate Deployments> Add New Scheduled Deployment > select the release  name ,  phase and versions with schedule date and time.
     
     
-### <a id="15"> </a>Q15) In  uRelease, Gate Status is Failed ,1 Missing Quality Status, CI Setup(Failed) is shown when trying to deploy
+### <a id="15"> </a> In  uRelease, Gate Status is Failed ,1 Missing Quality Status, CI Setup(Failed) is shown when trying to deploy
     
     -   User needs to go to Execution and Deployment Plan and add the missing Gate (CI Setup) by clicking on the + symbol under Quality Status
 ![image010.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/1290b0ab-d18e-4690-ba49-833dc898a00b/media/V15_image010.png?preventCache=1552310394905)
     
-### <a id="16"> </a>Q16) I have schedule a deployment in uRelease but deployment has not started automatically?
+### <a id="16"> </a> I have schedule a deployment in uRelease but deployment has not started automatically?
     
     -   Once you schedule a deployment please check you have started the deployment in that release or not please check is all gates are approved or passed or not.
     -   If you are manually starting the deployment , please click on the next start button for the deployment task .
 
-### <a id="17"> </a>Q17) After snapshot creation, Start Deployment button was not available.
+### <a id="17"> </a> After snapshot creation, Start Deployment button was not available.
     
     -   Please contact you application admin and subscribe for Application admin AD group from http://adam.cisco.com
     
-### <a id="18"> </a>Q18) Deployment successful in uDeploy, but latest war file is not updated to tomcat Dev/Stage/Prod server
+### <a id="18"> </a> Deployment successful in uDeploy, but latest war file is not updated to tomcat Dev/Stage/Prod server
     
     -   Please contact platform team .
     -   LAE platform - lae-operations@cisco.com
     -   AWS Team (CCIX) - gs-pss-wipro@cisco.com
     
-### <a id="19"> </a>Q19) How to deploy an old version in udeploy
+### <a id="19"> </a> How to deploy an old version in udeploy
     
     -   Create a new snapshot by selecting the version which you wanted to deploy.
     
 	    Home > Applications > {your application} > Snapshots > Snapshot: {name} > Component Versions > add
 ![image011.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/5cd536bc-6ca1-409d-a120-d222b591007c/media/V15_image011.png?preventCache=1552310394905)
 
-### <a id="20"> </a>Q20) Version import is taking a lot of  time,  would be started 2 hours back and still in Executing status.
+### <a id="20"> </a> Version import is taking a lot of  time,  would be started 2 hours back and still in Executing status.
     
     -   Please raise a case in SRM (search with uDeploy)
  ![image012.jpg](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/b4f6a53f-efde-4630-a615-c213306e46b6/media/V15_image012.jpg?preventCache=1552310394905)   
  
     
-### <a id="21"> </a>Q21) Deletion of  a  sDaaS stack required due to inappropriate information provided
+### <a id="21"> </a> Deletion of  a  sDaaS stack required due to inappropriate information provided
     
     -   Please go to Estore search with SDaaS and there is delete request for deleting the SDaaS stack
 ![image015.jpg](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/8ab1a12e-02ba-413a-b10d-675065dd1aee/media/V15_image015.jpg?preventCache=1552310394905)
     
-### <a id="22"> </a>Q22) Latest snapshot not getting updated quickly in uRelease
+### <a id="22"> </a> Latest snapshot not getting updated quickly in uRelease
     
     -   There is a 15minute cycle for pulling the latest snapshots from uDeploy. As there are many snapshots to be pulled it will take some time.
         
-### <a id="23"> </a>Q23) Deployment is successful in uDeploy but the restart of CCIX application is not happening after deployment to dev/stage/lt/prod
+### <a id="23"> </a> Deployment is successful in uDeploy but the restart of CCIX application is not happening after deployment to dev/stage/lt/prod
     
     -   Please contact AWS Team (gs-pss-wipro@cisco.com)
     
-### <a id="24"> </a>Q24) Submitted SdaaS request  # ,  however it is still showing 0% complete.
+### <a id="24"> </a> Submitted SdaaS request  # ,  however it is still showing 0% complete.
     
     -   Please contact PaaS  Team(citeis-paas-support@cisco.com)
     
     
-### <a id="25"> </a>Q25)  For  one application, steps are not present in application process.
+### <a id="25"> </a>  For  one application, steps are not present in application process.
     
     -   Please raise a case in Service Now (service offering -Release Automation)
     
     
-### <a id="26"> </a>Q26) User not able to see Application in pipeline view but stack is configured.
+### <a id="26"> </a> User not able to see Application in pipeline view but stack is configured.
     
     -   Application admin should check if the setup is fine .If everything looks good with the setup, check QA AD Group and ask user to request membership for that AD Group from ADAM (http://adam.cisco.com/)
    
     
-### <a id="27"> </a>Q27) Build is not proper as it is going to ext-release-local instead of ext-snapshot-local
+### <a id="27"> </a> Build is not proper as it is going to ext-release-local instead of ext-snapshot-local
     
     There can be two possibilities:
     
@@ -292,19 +292,19 @@ weight: 3
    Ex: 1.0.0-SNAPSHOT 
   ![image019.jpg](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/d282aaa1-2533-4022-bb48-ae6f4070c49b/media/V15_image019.jpg?preventCache=1552310394905)
     
-### <a id="28"> </a>Q28) While  trying to add Quality Status,user does not see the required quality status/gate in dropdown (Ex:CI Setup)
+### <a id="28"> </a> While  trying to add Quality Status,user does not see the required quality status/gate in dropdown (Ex:CI Setup)
     
 ![image021.jpg](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/366132db-c21b-4c22-b54b-8d7463d2bd2d/media/V15_image021.jpg?preventCache=1552310394905)
     
     -   User needs to check with Application admin as he needs to subscribe himself for the application admin ad group from ADAM (http://adam.cisco.com/).
        
-### <a id="29"> </a>Q29)  While  migrating a project from ANT to MAVEN, user will need to upload jars to Cisco Repository.
+### <a id="29"> </a> While  migrating a project from ANT to MAVEN, user will need to upload jars to Cisco Repository.
     
     -   You can raise an estore sdaas  request[In estore search for Sdaas] with target environment as ‘Artifactory’ and Artifactory Access type as ‘Public’.
     -   Once raised, a confirmation mail will be received with the artifactory URL Details for uploading their files.
 ![image025.jpg](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/e1287808-86c0-4ba1-ad62-8207c4f76b49/media/V15_image025.jpg?preventCache=1552310394905)
     
-### <a id="30"> </a>Q30) How to restore the deployment task if accidentally deleted by a team member?
+### <a id="30"> </a> How to restore the deployment task if accidentally deleted by a team member?
     
 	    When user is trying to start deployment for the application in stage, getting error “This deployment plan does not contain any runnable tasks” User not able to see pre-deployment tasks being populated and unable to create automated task
 ![image026.jpg](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/6a94b307-658e-481c-a56b-4d420a8bf170/media/V15_image026.jpg?preventCache=1552310394905)
@@ -327,12 +327,12 @@ weight: 3
     Step 3: add the atuomated task
    ![image032.jpg](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/cab55902-2aa7-4b94-b13f-f36c985c0c02/media/V15_image032.jpg?preventCache=1552310394905) 
    
-### <a id="31"> </a>Q31) How to add or apply the freeze to our applications.
+### <a id="31"> </a> How to add or apply the freeze to our applications.
     
     -   For adding or applying Freeze, you can add it in Blackout plan for your applications in uDeploy (uDeploy > Applications > Environments > Calendar)
 ![image033.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/0854401e-bbcc-4385-9653-edb4b3dba333/media/V15_image033.png?preventCache=1552310394905)       
     
-### <a id="32"> </a>Q32). Failed to start Task: problem with doOnURl
+### <a id="32"> </a> Failed to start Task: problem with doOnURl
     
     -   As seen in below screen shot you will notice “Failed to start Task: problem with doOnURl”
 ![image035.jpg](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/f08933d2-c19d-425c-a8df-4e70a53cca42/media/V15_image035.jpg?preventCache=1552310394905)
@@ -342,7 +342,7 @@ weight: 3
     
 ![image038.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/526fcfc4-4d36-47fd-9079-4ba70c47ac15/media/V15_image038.png?preventCache=1552310394905)
     
-### <a id="33"> </a>Q33). How can I deploy old snapshot in URelease?
+### <a id="33"> </a> How can I deploy old snapshot in URelease?
     
     -   In the pipeline view, drag and drop the latest release to the target environment as you normally would.
     -   In the environment, click on the time stamp for the scheduled release.
@@ -352,13 +352,13 @@ weight: 3
     -   This will make the version a drop-down. Pick the older snapshot you want and save the changes.
     
     
-### <a id="34"> </a>Q34). Udeploy Deployment fails with the Error: Deployment has failed in UDeploy with the error output “jbossews process failed to start” and “Error deploying local file. You can try to deploy manually with:ssh –t..”
+### <a id="34"> </a> Udeploy Deployment fails with the Error: Deployment has failed in UDeploy with the error output “jbossews process failed to start” and “Error deploying local file. You can try to deploy manually with:ssh –t..”
     
     -   Please do contact LAE team - "lae-operations".
     
     [![](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/d46a23fc-9081-40fb-b1a8-b2f1f3b32af0/media/5_V15_pastedImage_3.png?preventCache=1552310394905)](https://apps.na.collabserv.com/wikis/home/wiki/W8a035710e5dd_4861_adc6_1db5506a4cab/page/uDeploy%20and%20uRelease%20FAQs)
     
-### <a id="35"> </a>Q35). How to promote snapshot from Dev to Upper Environments?
+### <a id="35"> </a> How to promote snapshot from Dev to Upper Environments?
     
     -   Login to uRelease (https://release.cisco.com/login) using your CEC credentials
   ![](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/ad21353a-53ee-4a52-a2be-c235165edf68/media/V15_pastedImage_99.png?preventCache=1552310394905)  
@@ -380,24 +380,24 @@ weight: 3
     -   Click on the Start Deployment button to trigger the deployment manually.
     -   Once all approvals are in place, from the Deployment Tasks section please click on the Start button and you can then monitor the progress of the application deployment from here or in uDeploy.
     
-### <a id="36"> </a>Q36). How to add a new environment in Udeploy and URelease?
+### <a id="36"> </a> How to add a new environment in Udeploy and URelease?
     
     -   Please use SDaaS Modify in Estore (http://estore.cisco.com/RequestCenter/servicecatalog/servicecatalog.do?route=offer&id=655)and request in "Life Cycle Details" section for the environment which you want to be added.
     
-### <a id="37"> </a>Q37) User not able to access uDeploy although he is a part of AD group specified while raising Sdaas stack. (AD Sync issue)
+### <a id="37"> </a> User not able to access uDeploy although he is a part of AD group specified while raising Sdaas stack. (AD Sync issue)
     
 ![Q36.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/8e3b570b-4bd8-45c1-b0d2-3d124ab43a4e/media/V15_Q36.png?preventCache=1552310394905)
     
     -   Need to update the user in uDeploy. Please raise a case with sra-tier1
     
-### <a id="38"> </a>Q38)  While ordering for SdaaS stack the below error occurs for user
+### <a id="38"> </a>  While ordering for SdaaS stack the below error occurs for user
 
 ![38.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/58c37c30-5f0c-45ab-8495-641af2baf6d9/media/V15_38.png?preventCache=1552310394905)    
    
     -   please use other than ‘ / ‘ and ‘ _ ‘ as they are not allowed in directory path, suggested by CITEIS PaaS Support Team
     
     
-### <a id="39"> </a>Q39)  How to set email notifications for any deployments/task/segments in uRelease?
+### <a id="39"> </a>  How to set email notifications for any deployments/task/segments in uRelease?
     
     -   Under Notification Configuration you can create notifications for Start/Fail/Finish of Deployment/Task/Segment
    
@@ -408,7 +408,7 @@ weight: 3
     
  ![29A.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/ff93b099-3fce-47b0-bcc0-074d7df9bea7/media/V15_29A.png?preventCache=1552310394905)
     
-### <a id="40"> </a>Q40) How to check whether the application is SOX or NON-SOX application?
+### <a id="40"> </a> How to check whether the application is SOX or NON-SOX application?
     -   Login to uDeploy [https://deploy.cisco.com:8443/](https://deploy.cisco.com:8443/)
    ![](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/21087611-6b85-4b3e-8796-2e6c878b91a7/media/V15_pastedImage_21.png?preventCache=1552310394905) 
 
@@ -416,7 +416,7 @@ weight: 3
     -   If SOX value is false then application is NON sox application; if it’s true then the application is SOX application.
 ![](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/5b5f52de-152e-4e4f-8856-b0363173bfb3/media/V15_pastedImage_23.png?preventCache=1552310394905)
     
-### <a id="41"> </a>Q41) How to request membership for particular AD group?
+### <a id="41"> </a> How to request membership for particular AD group?
  
     -   login to ADAM's Account [http://adam.cisco.com/](http://adam.cisco.com/)
     -   Goto Group Search, search for AD Group name which you have or our team has shared with you.
@@ -425,7 +425,7 @@ weight: 3
     -   Then please click on request membership and provide justification.
     -   Notify the owners and once the owners approve it, you would be part of that group.
     
-### <a id="42"> </a>Q42)How to import version manually?
+### <a id="42"> </a> How to import version manually?
     
     -   login to uDeploy [https://deploy.cisco.com:8443/](https://deploy.cisco.com:8443/)
     -   Navigate to the application and click on the application name
@@ -434,12 +434,12 @@ weight: 3
     -   Click on import version mamually, click on save without select anything, it will import the latest version from artifactory.
 
     
-### <a id="43"> </a>Q43)How to create build for multistack application?
+### <a id="43"> </a> How to create build for multistack application?
     
 		Refer to the JIVE page https://cisco.jiveon.com/docs/DOC-101972 (https://apps.na.collabserv.com/wikis/home/wiki/W4ae5df2fa9b8_419b_8361_46b3d6f6ebda/page/Software%20Development%20Stack%20%28SDaaS%29%20for%20Advanced%20Deployment%20%28LAE%29) for step by step instructions.
     
     
-### <a id="44"> </a>Q44) What needs to be done when the deployment log shows version already installed?
+### <a id="44"> </a> What needs to be done when the deployment log shows version already installed?
       
     -   This indicates that the snapshot was created with already deployed version.
     -   Schedule a new deployment
@@ -456,16 +456,16 @@ weight: 3
     
     -   Trigger the deployment manually or wait for it to start automatically.
     
-### <a id="45"> </a>Q45) How to change Informatica SOX application to NON SOX application?
+### <a id="45"> </a> How to change Informatica SOX application to NON SOX application?
     
 		 Please raise a case with proper justification if there is a request to change any Teradata/Informatica applications from Non-SOX to SOX or vice versa as that requires configuration changes in uRelease as well which only SRA team can perform.
 
     
-### <a id="46"> </a>Q46) Unable to approve Snapshot for PROD deployment?
+### <a id="46"> </a> Unable to approve Snapshot for PROD deployment?
     
 		 User should have sufficent privileges to approve for prod and should be part of the IT Manager ADAM group.
     
-### <a id="47"> </a>Q47) Passsed Validation Gate not added?
+### <a id="47"> </a> Passsed Validation Gate not added?
     
 		Following criteria should be met for the “Passed Validation” gate to be added dynamically:    
     -   Unique Approvers for Prod and Non-Prod
@@ -474,44 +474,44 @@ weight: 3
     -   Any deployments should take place via uRelease
     -   Check if there are any duplicate schedules
     
-### <a id="48"> </a>Q48) Teradata Deployment Guide.
+### <a id="48"> </a> Teradata Deployment Guide.
     
 		Please follow the below jive page https://cisco.jiveon.com/docs/DOC-710333 (https://apps.na.collabserv.com/wikis/home/wiki/W3213ca86d305_4c1a_b111_89b8dadb845e/page/Teradata%20Deployment%20Guide) Teradata Deployment Guide
 
-### <a id="49"> </a>Q49) uDeploy User Guide for OBIEE.
+### <a id="49"> </a> uDeploy User Guide for OBIEE.
     
 		Please follow the below jive page https://cisco.jiveon.com/docs/DOC-24089    (https://apps.na.collabserv.com/wikis/home/wiki/Wbfdcbc9fda6c_43c5_a5fe_cf0bd3fce99a/page/SRA%20uDeploy%20User%20Guide%20For%20OBIEE) SRA uDeploy User Guide For OBIEE
     
-### <a id="50"> </a>Q50) Change/Setup environment variable in SFDC workflow in uDeploy
+### <a id="50"> </a> Change/Setup environment variable in SFDC workflow in uDeploy
     
 	     Go to the particular environment in application, make required changes in Environment configuration -> Environment properties
     
-### <a id="51"> </a>Q51) What to do if no Sys ID gate is getting added in uRelease ?
+### <a id="51"> </a> What to do if no Sys ID gate is getting added in uRelease ?
     
 		Please contact sra-sdaas-support@cisco.com to add the sys Id in uRelease.
     
-### <a id="52"> </a>Q52) What to do if application is Non-SOX in uDeploy but SOX gate is added in uRelease OR vice versa ?
+### <a id="52"> </a> What to do if application is Non-SOX in uDeploy but SOX gate is added in uRelease OR vice versa ?
     
 		Please reach out to SRA ops team to make it non-sox in uRelease or vice-versa.
     
     
-### <a id="53"> </a>Q53)Gate failed as waiting to join event/ Release ?
+### <a id="53"> </a> Gate failed as waiting to join event/ Release ?
     
 		Go to View Execution and Deployment > Overview> Join event
     
-### <a id="54"> </a>Q54)Version not imported to udeploy for CAE applications
+### <a id="54"> </a> Version not imported to udeploy for CAE applications
     
 		Please delete tags from container.cisco.com . Version is not imported in uDeploy if the tags are more than 50 in the container.
     
-### <a id="55"> </a>Q55) Sox validation in uDeploy/uRelease through Rally .
+### <a id="55"> </a> Sox validation in uDeploy/uRelease through Rally .
     
 		Refer SOX Validation in uDeploy/uRelease through Rally (https://apps.na.collabserv.com/wikis/home/wiki/W52d8c1c91d6a_41eb_a30f_021c10f3ec18/page/SOX%20Validation%20in%20uDeployuRelease%20through%20Rally%C2%A0)
     
-### <a id="56"> </a>Q56) Snapshots failing at SOX validation step (Rally).
+### <a id="56"> </a> Snapshots failing at SOX validation step (Rally).
     
 		Refer https://cisco.jiveon.com/docs/DOC-1913239#jive_content_id_SNAPSHOTS_are_failing_inat_UDeployARRT_setup	(https://apps.na.collabserv.com/wikis/home/wiki/W8a035710e5dd_4861_adc6_1db5506a4cab/page/uDeploy%20and%20uRelease%20FAQs?lang=en-us&section=jive_content_id_SNAPSHOTS_are_failing_inat_UDeployARRT_setup)
     
-### <a id="57"> </a>Q57) Tags not imported in uDeploy for CAE application.
+### <a id="57"> </a> Tags not imported in uDeploy for CAE application.
     
 		Please validate the below points :
     
@@ -523,7 +523,7 @@ weight: 3
     
     (For the deletion user need to involve ECM team also). Then only the tags will get import to the udeploy.
     
-### <a id="57"> </a>Q58)If no tags are found in Quay(containers.cisco.com) even after the Jenkins build, then below snippet has to be added from the Jenkins end.
+### <a id="57"> </a> If no tags are found in Quay(containers.cisco.com) even after the Jenkins build, then below snippet has to be added from the Jenkins end.
     
 		No action from uDeploy end . Involve Jenkins Team(ci-dft@cisco.com) for help .
     
@@ -537,7 +537,7 @@ weight: 3
     
 	    }
     
-### <a id="59"> </a>Q59)How deploy a SOX application in PROD environment without joining a Release event(Non-CDRM) in URelease.
+### <a id="59"> </a> How deploy a SOX application in PROD environment without joining a Release event(Non-CDRM) in URelease.
     
 	    For a sox application – who want to perform deployment which isn’t part of any Release event or doesn’t join a Release event, below are the steps to follow:-
     
