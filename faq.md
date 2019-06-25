@@ -172,7 +172,7 @@ weight: 3
     run the process automatically for new version imports. Please enable this option.
     
     Home > Components > {application} > Configuration 
-  ![image006.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/95d7eac3-4228-40d5-88bb-f367d5237369/media/V15_image006.png?preventCache=1552310394905)
+![image006.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/95d7eac3-4228-40d5-88bb-f367d5237369/media/V15_image006.png?preventCache=1552310394905)
     
      -   Please do verify the version number in both Artifactory and Udeploy’s Component Configuration.
      -   If the build is not uploaded in artifactory, then please do check the Jenkins configuration.
@@ -189,7 +189,7 @@ weight: 3
       -  In uDeploy navigate to  Applications>  go to your application > in environment tab there will be
     
     environments > in that play button will be there please click on that.
- ![image007.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/fcdc5972-ee46-46d2-a6c9-a7ab0896f3e6/media/1_V15_image007.png?preventCache=1552310394905)
+![image007.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/fcdc5972-ee46-46d2-a6c9-a7ab0896f3e6/media/1_V15_image007.png?preventCache=1552310394905)
     
         However it is recommended to use uRelease to deploy to any non-Dev environment to not to violate SOX . 
 
@@ -197,12 +197,12 @@ weight: 3
 ### <a id="10"> </a> how to check the deployment log?
     
     -   In uDeploy navigate to Applications> go to your application > in environment tab there will be environments> click on the environment dropdown > click on view request there you will see the details log   
- ![image008.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/6aef085f-ea00-4540-9ef9-186cb68ed3f7/media/V15_image008.png?preventCache=1552310394905) 
+![image008.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/6aef085f-ea00-4540-9ef9-186cb68ed3f7/media/V15_image008.png?preventCache=1552310394905) 
 
 ### <a id="11"> </a> How to create a snapshot for the release?
     
     -   In uDeploy navigate to Applications> go to your application > in environment tab there will be environments> click on camera button or go to snapshot tab and click on create
- ![image007.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/1c59d1aa-c1b3-4b5b-b034-3eab71171b88/media/V15_image007.png?preventCache=1552310394905)   
+![image007.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/1c59d1aa-c1b3-4b5b-b034-3eab71171b88/media/V15_image007.png?preventCache=1552310394905)   
     
 ### <a id="12"> </a> How to schedule the deployment in udeploy?
     
@@ -316,16 +316,16 @@ weight: 3
     CASE 1: If deployment task exist only autoated task is missing please follow below step
     
     Step 1: add the atuomated task
-   ![image032.jpg](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/56db4427-e6ca-41ec-ac08-fa67f5ad9793/media/1_V15_image032.jpg?preventCache=1552310394905)
+![image032.jpg](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/56db4427-e6ca-41ec-ac08-fa67f5ad9793/media/1_V15_image032.jpg?preventCache=1552310394905)
     
     CASE 2: If Deployment task it self is deleted
     
     Step1: click on Create segment please follow below step
- ![image029.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/a97b80ba-5911-4a77-b91a-1094d062f943/media/V15_image029.png?preventCache=1552310394905)   
+![image029.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/a97b80ba-5911-4a77-b91a-1094d062f943/media/V15_image029.png?preventCache=1552310394905)   
     Step to fill the details as below[![image031.jpg](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/95ec13b6-5c46-439c-b5f7-b7cafb739c37/media/V15_image031.jpg?preventCache=1552310394905)
     
     Step 3: add the atuomated task
-   ![image032.jpg](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/cab55902-2aa7-4b94-b13f-f36c985c0c02/media/V15_image032.jpg?preventCache=1552310394905) 
+![image032.jpg](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/cab55902-2aa7-4b94-b13f-f36c985c0c02/media/V15_image032.jpg?preventCache=1552310394905) 
    
 ### <a id="31"> </a> How to add or apply the freeze to our applications.
     
@@ -356,12 +356,12 @@ weight: 3
     
     -   Please do contact LAE team - "lae-operations".
     
-    [![](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/d46a23fc-9081-40fb-b1a8-b2f1f3b32af0/media/5_V15_pastedImage_3.png?preventCache=1552310394905)](https://apps.na.collabserv.com/wikis/home/wiki/W8a035710e5dd_4861_adc6_1db5506a4cab/page/uDeploy%20and%20uRelease%20FAQs)
+![](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/d46a23fc-9081-40fb-b1a8-b2f1f3b32af0/media/5_V15_pastedImage_3.png?preventCache=1552310394905)](https://apps.na.collabserv.com/wikis/home/wiki/W8a035710e5dd_4861_adc6_1db5506a4cab/page/uDeploy%20and%20uRelease%20FAQs)
     
 ### <a id="35"> </a> How to promote snapshot from Dev to Upper Environments?
     
     -   Login to uRelease (https://release.cisco.com/login) using your CEC credentials
-  ![](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/ad21353a-53ee-4a52-a2be-c235165edf68/media/V15_pastedImage_99.png?preventCache=1552310394905)  
+![](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/ad21353a-53ee-4a52-a2be-c235165edf68/media/V15_pastedImage_99.png?preventCache=1552310394905)  
     
     -   Click on the Pipeline View and select the application from the drop down list that you wish to deploy
     -   In the NEWEST section users will see the latest snapshot being pulled into uRelease
@@ -406,11 +406,11 @@ weight: 3
     
     -   Mail received will be of below format:
     
- ![29A.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/ff93b099-3fce-47b0-bcc0-074d7df9bea7/media/V15_29A.png?preventCache=1552310394905)
+![29A.png](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/ff93b099-3fce-47b0-bcc0-074d7df9bea7/media/V15_29A.png?preventCache=1552310394905)
     
 ### <a id="40"> </a> How to check whether the application is SOX or NON-SOX application?
     -   Login to uDeploy [https://deploy.cisco.com:8443/](https://deploy.cisco.com:8443/)
-   ![](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/21087611-6b85-4b3e-8796-2e6c878b91a7/media/V15_pastedImage_21.png?preventCache=1552310394905) 
+![](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/21087611-6b85-4b3e-8796-2e6c878b91a7/media/V15_pastedImage_21.png?preventCache=1552310394905) 
 
     -   Open your application; Navigate to application -> configuration. Click on application properties on the left.
     -   If SOX value is false then application is NON sox application; if it’s true then the application is SOX application.
@@ -546,9 +546,9 @@ weight: 3
     
 	-   	Approve schedule deployment of PROD with the manger.
 	-   	After approval, if user not joins any Release Event. Bleow are the gates added.
-  ![](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/a6762db2-14a5-471d-9170-a45e1a4021ca/media/editor_image_1b9aed91-75c4-4755-8254-cdb07651d4f8.png?preventCache=1552310394905)
+![](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/a6762db2-14a5-471d-9170-a45e1a4021ca/media/editor_image_1b9aed91-75c4-4755-8254-cdb07651d4f8.png?preventCache=1552310394905)
 	
 	-   	Please add the quality status as “**Non-CDRM**” as the deployment is not part of any Release Event
 	-   	And the deployment would proceed with the sox validations and sox gates would be added based on the sox test case validations
-  ![](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/001fc998-e674-4ad3-baec-a234e18ecf14/media/editor_image_790824e8-d029-43eb-8061-7053f5740122.png?preventCache=1552310394905)
-  ![](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/42c39732-b8dd-485f-8df9-f8540d429ba5/media/editor_image_9a854a9c-52d6-47a6-8a7e-5dbc4c312193.png?preventCache=1552310394905)
+![](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/001fc998-e674-4ad3-baec-a234e18ecf14/media/editor_image_790824e8-d029-43eb-8061-7053f5740122.png?preventCache=1552310394905)
+![](https://apps.na.collabserv.com/wikis/basic/api/wiki/70e2a755-5429-4589-a8cb-8d73ca8cf52a/page/3a0d6b0a-bf34-428b-9ede-ce1f39271c7e/attachment/42c39732-b8dd-485f-8df9-f8540d429ba5/media/editor_image_9a854a9c-52d6-47a6-8a7e-5dbc4c312193.png?preventCache=1552310394905)
