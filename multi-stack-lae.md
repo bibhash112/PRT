@@ -30,9 +30,9 @@ Whereas in Urelease all primary deployment life cycles and release life cycles w
 
 
 
- ![](http://minio.cisco.com:80/hackmd/uploads/upload_83c25ab3766095e6c0d10ca65543028c.png)
+ ![parallel_development](images/parallel_development.png)
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_9ec0ee8641c372f1fcbbd67ba7e239dc.png)
+![cd](images/cd.png)
 
 
 
@@ -90,14 +90,14 @@ New SdaaS Users:
 1.	Add all required lifecycle details through estore -> Create LAE
 
  
-![](http://minio.cisco.com:80/hackmd/uploads/upload_bbf8971da0b47c50a1bf0f42b45d68f4.png)
+![requestor_info](images/requestor_info.png)
 
 
 2.	Create sdaas for all the lifecycles through estore and select the primary lifecycles during creation.
 
 **Eg:** Below snapshot has 3 primary lifecycles dev, cjd1,cjd2
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_eaa50e8fe26935e34eada62d2c7f4736.png)
+![SRA_details](images/SRA_details.png)
 
  
 
@@ -116,7 +116,7 @@ New SdaaS Users:
 -	Run the release staging from Jenkins
 -	Create snapshot through UDeploy and select the latest version
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_5eb76b345c707437de6f4f8c6c7902e7.png)
+![process_change](images/process_change.png)
 
 
  
@@ -144,21 +144,21 @@ http://svnarapp-dev-01:8081/artifactory/ext-release-local/it/gis/ats/jrsdaas2/jr
 
     http://gitscm-sb.cisco.com/projects/IT-GIS-ATS-JRSDAAS2/repos/jrjboss-jbosseap6/browse?at=refs%2Fheads%2Fcjd2
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_2c434512233632978f81c448c6f2995d.png)
+![stash_repo](images/stash_repo.png)
 
  
 **Jenkins Configuration** –
 
 Update the ‘Update Branch Specified’ to point to current branch 
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_ba30c9f86a52a261001c009caa92002b.png)
+![build](images/build.png)
 
  
 Jenkins -> Configuration for Dev : Update Branch Specifier (blank for 'any') - */master
 Jenkins -> Configuration for cjd1 : Update Branch Specifier (blank for 'any') - */cjd1
 Jenkins -> Configuration for cjd2 : Update Branch Specifier (blank for 'any') - */cjd2
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_9157c94b821abc352f59dc6891097159.png)
+![branch](images/branch.png)
 
  
 
@@ -168,24 +168,24 @@ Jenkins -> Configuration for cjd2 : Update Branch Specifier (blank for 'any') - 
 
 a)	Add the correct version for dev lifecycle in pom.xml “<version>x.x.x-dev-SNAPSHOT</version> 
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_9170f9c2f164c0b1f6ed26531795d845.png)
+![version](images/version.png)
 
  
 b)	Build the Dev branch in Jenkins
 Status: Build successful & moved to Artifactory
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_e502946aac02e22c9720b1938e70497a.png)
+![build_history](images/build_history.png)
 
 
 c)	Validate the Snapshot in AR(ext-snapshot-local)
 Status: Artifact created jbosseap-6-4.0.1-dev-20150629.192319-1.tar.gz 
  
-![](http://minio.cisco.com:80/hackmd/uploads/upload_b8b6fc2e673141d25367bd1fe63edd2f.png)
+![snapshot_info](images/snapshot_info.png)
 
 d)	Validate UDeploy
 Status: Deployment is successful to Dev
  
-![](http://minio.cisco.com:80/hackmd/uploads/upload_4d3bfbb4d1cf574239dabe332cc7cd99.png)
+![dashboard](images/dashboard.png)
 
 
 ### **Step 2: Deploy to Stg(Release) Lifecycle**
@@ -194,11 +194,11 @@ a)	Promote to Release via “Artifactory Release Staging” in Jenkins
 Release version: 4.0.1-dev
 Jenkins -> Select the dev job (jrjboss-Jbosseap-6) -> Artifactory Release Staging
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_4d93c8e1a3fe188e3e751fc05f3e6b3d.png)
+![art](images/art.png)
 
 **Status: Build successful & moved to Artifactory**
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_39957ffc0ed294a9bb853f59206213c7.png)
+![build_success](images/build_success.png)
 
  
 
@@ -209,20 +209,20 @@ e)	From dropdown section you can choose latest artifact, which was built and pus
 f)	**Note:** Since Artifactory Release path is same for all primary deployment life cycles; you can view all 3 Jenkins Jobs latest artifacts in the dropdown section. So you can choose artifact in corresponding to your development track.
 
  
-![](http://minio.cisco.com:80/hackmd/uploads/upload_9f0b531af271369f3f461ed024d99679.png)
+![snapshot](images/snapshot.png)
 
 g)	Verify snapshot on URelease
 
 **Status: Snapshot is successfully displayed in URelease.**
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_17f2b4a15f1b2e5fe97af82d509371c8.png)
+![newest](images/newest.png)
 
  
 h)	Promote to Stg
 
 **Status: Successfully drag-n-drop, Approve, Start.**
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_538916b7278abaa2f1605f0ef57e0272.png)
+![stage](images/stage.png)
 
  
 
@@ -231,33 +231,33 @@ h)	Promote to Stg
 
 a)	Add the correct version for dev lifecycle in pom.xml “<version>x.x.x-cjd1-SNAPSHOT</version> 
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_ceff5f0de26e680ff47a856ed57c3b18.png)
+![version1](images/version1.png)
 
  
 b)	Build the Dev branch in Jenkins
 **Status: Build successful & moved to Artifactory**
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_726ac94d4069df01d64d8d7a7f0993b1.png)
+![build_success1](images/build_success1.png)
 
  
 
 c)	Validate the Snapshot in AR(ext-snapshot-local)
 **Status: Artifact created jbosseap-6-2.0.7-cjd1-20150629.201240-1.tar.gz**
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_62fac7405d0e5c7bdbe9882d7e7b2a1a.png)
+![snap](images/snap.png)
 
 
 
 g)	Validate UDeploy
 -	Select the primary lifecycle to which the build is deployed
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_908e2377176cba00ecf23bdbc99977a7.png)
+![component](images/component.png)
 
  
 
 -	**Status: Deployment is successful to Dev**
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_21dbc776fb51e5cafe712bbe13d71495.png)
+![comp_history](images/comp_history.png)
 
  
 
@@ -271,7 +271,7 @@ Release version: 2.0.7-cjd1
 
 Jenkins -> Select the cjd1 job (jrjboss-Jbosseap-6-cjd1) -> Artifactory Release Staging
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_d880012052b0c22abc575801faab6dc9.png)
+![art_release_staging](images/art_release_staging.png)
 
  
 **Status: Build successful & moved to Artifactory**
@@ -286,9 +286,9 @@ f)	From dropdown section you can choose latest artifact, which was built and pus
 
 g)	**Note:** Since Artifactory Release path is same for all primary deployment life cycles; you can view all 3 Jenkins Jobs latest artifacts in the dropdown section. So you can choose artifact in corresponding to your development track.
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_4461adeca52368e25b85a3221c2de41e.png)
+![create_Snap](images/create_Snap.png)
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_76c06220c77e7d2b5b229df064fe9f48.png)
+![comp_version](images/comp_version.png)
 
 
 
@@ -296,28 +296,28 @@ g)	**Note:** Since Artifactory Release path is same for all primary deployment l
  
 **Status: Snapshot is successfully displayed in URelease.**
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_7fba43ccb5acc8e05b9d8d4c5ae776b5.png)
+![snap_ur](images/snap_ur.png)
 
  
 i)	Promote to Stg1(cjs1)
 
 **Status: Successfully drag-n-drop, Approve, Start.**
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_4c0b069d8b6bdba429c36905ce24bb60.png)
+![env_ur](images/env_ur.png)
 
 
 **Step 5: Deploy to Dev2(cjd2-Release) Lifecycle**
 
 a)	Add the correct version for dev lifecycle in pom.xml “<version>x.x.x-cjd2-SNAPSHOT</version> 
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_3e16a3b437ffcdf6193ccd0a2e9b4d8d.png)
+![snap_version](images/snap_version.png)
 
  
 b)	Build the Dev branch in Jenkins
 
 **Status: Build successful & moved to Artifactory**
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_bcc825c4d796a801bd72ce1ca7905481.png)
+![build_his](images/build_his.png)
 
  
 
@@ -325,20 +325,20 @@ c)	Validate the Snapshot in AR(ext-snapshot-local)
 
 **Status: Artifact created jbosseap-6-3.0.4-cjd2-20150629.210211-1.tar.gz**
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_aa207e68ad61354e1fa71fed4ea5a760.png)
+![tar](images/tar.png)
 
 
 d)	Validate UDeploy
 
 -	Select the primary lifecycle to which the build is deployed
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_f9de0423b82b56886b2d0acb647a9aec.png)
+![comp](images/comp.png)
 
  
 
 -	**Status: Deployment is successful to Dev**
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_ce6538efc378de3dbd88006d0119ce5c.png)
+![comp_req_history](images/comp_req_history.png)
 
  
 
@@ -350,7 +350,7 @@ Release version: 3.0.4-cjd2
 
 Jenkins -> Select the cjd1 job (jrjboss-Jbosseap-6-cjd1) -> Artifactory Release Staging
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_e58a6252872cd98795692c53ff6ef974.png)
+![art_release_staging1](images/art_release_staging1.png)
 
 
  
@@ -358,7 +358,7 @@ Jenkins -> Select the cjd1 job (jrjboss-Jbosseap-6-cjd1) -> Artifactory Release 
 
 **Status: Build successful & moved to Artifactory**
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_4df69109837cae09c76497d25ad860f7.png)
+![build_his1](images/build_his1.png)
 
  
 b)	Create Snapshot through UDeploy
@@ -371,9 +371,9 @@ e)	From dropdown section you can choose latest artifact, which was built and pus
 
 f)	**Note:** Since Artifactory Release path is same for all primary deployment life cycles; you can view all 3 Jenkins Jobs latest artifacts in the dropdown section. So you can choose artifact in corresponding to your development track.
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_f9a4fcf2adfce48dc7f7be9b511df66c.png)
+![snap_create](images/snap_create.png)
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_54667136394a46dea922c8959c3cf293.png)
+![snap_ver](images/snap_ver.png)
 
  
 
@@ -383,7 +383,7 @@ g)	Verify snapshot on URelease
 
 **Status: Snapshot is successfully displayed in URelease.**
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_5fecf53313846bd958246618eaf03c0a.png)
+![new](images/new.png)
 
 
 h)	Promote to Stg2(cjs2)
@@ -398,26 +398,26 @@ Step 1: Select the previous snapshot version
 
 a)	Drag and Drop the current snapshot to the lifecycle
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_5e0836759445022256b1cb3cf6222d4c.png)
+![gate](images/gate.png)
 
  
 
 b)	Click on the schedule time and pass the gateway
  
-![](http://minio.cisco.com:80/hackmd/uploads/upload_917d827f3faa9f18fef1983fa1de443f.png)
+![gate_fail](images/gate_fail.png)
 
 c)	View Execution & Deployment Plan -> Contents & Notifications
 
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_7190cf9c2c9cc6d6f9ef4918a1a99100.png)
+![contents_notif](images/contents_notif.png)
 
  
 d)	Click on the application name (jrjboss-lae-jbosseap-6) -> select the version to deploy
  
-![](http://minio.cisco.com:80/hackmd/uploads/upload_38a902811959aacc97446916bf0dd79e.png)
+![deploy_contents](images/deploy_contents.png)
 
 
-![](http://minio.cisco.com:80/hackmd/uploads/upload_c23a6d8d979f2b6c7e9e9e00ed83a899.png)
+![version_comp](images/version_comp.png)
 
  
 
