@@ -37,7 +37,7 @@ Click the order button to begin the ordering process. Fill in the Order form. Re
 _**Step 3.3: Specify targeted runtime**_  
 Select Target Environment as per requirement and fill the the mandatory data based on this selection.
 
-![target_env](images/target_env)
+![target_env](images/target_env.png)
 
 _**Step 3.4: Manage source code**_
 
