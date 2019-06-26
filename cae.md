@@ -6,9 +6,9 @@ At the end of this exercise you will have your application running as a Docker c
 
 **Prerequisites:**
 
-1. Register Application - https://cisco.jiveon.com/docs/DOC-1630729
-2. Create CAE Projects - https://cisco.jiveon.com/docs/DOC-1630730
-3. Setup SDaaS Pipeline  - https://cisco.jiveon.com/docs/DOC-1546539                   
+1. <a href="https://cisco.jiveon.com/docs/DOC-1630729" target="_blank">Register Application</a>
+2. <a href="https://cisco.jiveon.com/docs/DOC-1630730" target="_blank">Create CAE Projects</a>
+3. <a href="https://cisco.jiveon.com/docs/DOC-1546539 " target="_blank">Setup SDaaS Pipeline</a>
 
 **Step 1: Collect CI/CD pipeline details**
 Have the information from your SDaaS setup confirmation email available, such as Stack Name, BitBucket URL, Container Repository Path, etc.
