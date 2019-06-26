@@ -14,6 +14,7 @@ To create SDaaS stack to use the cisco builds on your application source code.
 Go to  [eStore](http://estore.cisco.com/)  and fill in your credentials
 
 ![estore](images/estore.png)
+<img src="images/estore.png" width="1200px">
 
 **Step 2: Search SDaaS Service**  
 Navigate to SDaaS by searching in the search bar or clicking through the categories
