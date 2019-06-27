@@ -52,7 +52,7 @@ UD & UR Application Name - jrjboss-lae-Jbosseap-6
 
  
 
-#Step 1 : Create Release/Feature Branches
+**Step 1: Create Release/Feature Branches**
  
 
 Login to Stash & create release branches out of the master branch.
@@ -71,7 +71,7 @@ http://gitscm-sb.cisco.com/projects/IT-GIS-ATS-JRSDAAS2/repos/jrjboss-jbosseap6/
 
  
 
-#Step 2 : Update pom.xml entries
+**Step 2: Update pom.xml entries**
  
 
 At this step you need to update the pom.xml files on each of these branches with appropriate groupId, artifactId & version -
@@ -88,18 +88,18 @@ Once changes are done commit the branches & move to next step.
 
  
 
-#Step 3 : Configure Continuous Integration Jobs
+**Step 3: Configure Continuous Integration Jobs**
  
 
 The CI Jobs are provisioned with default branch, you would need to change them with the branches that you have created above.
 
  
 
-a) Log in to Jenkins with the URL provided in your email & go to the exact path where your job resides
+	a) Log in to Jenkins with the URL provided in your email & go to the exact path where your job resides
 
 
 
-  b)   Click on Configure to configure your branch details.
+  	b)   Click on Configure to configure your branch details.
 
 
 
@@ -117,7 +117,7 @@ Jenkins -> Configuration for cjd2 : Update Branch Specifier (blank for 'any') - 
 
  
 
-#Step 4 : Build & Deploy to Primary Deployment Lifecycles
+**Step 4: Build & Deploy to Primary Deployment Lifecycles**
  
 
 This step defines how to build & deploy to primary development lifecycles. In this example these are - Dev, CJD1 & CJD2.
@@ -198,7 +198,7 @@ c)   Click on View Request at the right corner of the page – Execution status 
 
  
 
-#Step 5: Promote to Release Lifecycles
+**Step 5: Promote to Release Lifecycles**
  
 
 5.1 Release the build
