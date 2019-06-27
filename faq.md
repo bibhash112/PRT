@@ -246,13 +246,13 @@ Go to estore sDaas Modify Request http://estore.cisco.com/RequestCenter/servicec
 ### <a id="20"> </a> Version import is taking a lot of  time,  would be started 2 hours back and still in Executing status.
     
 -   Please raise a case in SRM (search with uDeploy)   
-<img src="images/ver_his.jpg" width="1200px">
+<img src="images/ver_his.png" width="1200px">
  
     
 ### <a id="21"> </a> Deletion of  a  sDaaS stack required due to inappropriate information provided
     
 -   Please go to Estore search with SDaaS and there is delete request for deleting the SDaaS stack
-<img src="images/sdaas_delete.jpg" width="1200px">
+<img src="images/sdaas_delete.png" width="1200px">
     
 ### <a id="22"> </a> Latest snapshot not getting updated quickly in uRelease
     
@@ -291,7 +291,7 @@ Ex: 1.0.0-SNAPSHOT
     
 ### <a id="28"> </a> While  trying to add Quality Status,user does not see the required quality status/gate in dropdown (Ex:CI Setup)
     
-<img src="images/qualitystatus.jpg" width="1200px">
+<img src="images/qualitystatus.png" width="1200px">
     
 -   User needs to check with Application admin as he needs to subscribe himself for the application admin ad group from ADAM (http://adam.cisco.com/).
        
@@ -299,7 +299,7 @@ Ex: 1.0.0-SNAPSHOT
     
 -   You can raise an estore sdaas  request[In estore search for Sdaas] with target environment as ‘Artifactory’ and Artifactory Access type as ‘Public’.
 -   Once raised, a confirmation mail will be received with the artifactory URL Details for uploading their files.
-<img src="images/art_info.jpg" width="1200px">
+<img src="images/art_info.png" width="1200px">
     
 ### <a id="30"> </a> How to restore the deployment task if accidentally deleted by a team member?
     
@@ -313,15 +313,15 @@ User deleted the deployment task by  mistake,  application admins will be able t
 CASE 1: If deployment task exist only autoated task is missing please follow below step
     
 Step 1: add the automated task
-<img src="images/add_task.jpg" width="1200px">
+<img src="images/add_task.png" width="1200px">
 CASE 2: If Deployment task it self is deleted
     
 Step1: click on Create segment please follow below step 
 <img src="images/create_segment.png" width="1200px">  
 Step 2: fill the details as below 
-<img src="images/details.jpg" width="1200px">    
+<img src="images/details.png" width="1200px">    
 Step 3: add the atuomated task
-<img src="images/add_task1.jpg" width="1200px">
+<img src="images/add_task1.png" width="1200px">
    
 ### <a id="31"> </a> How to add or apply the freeze to our applications.
     
@@ -331,7 +331,7 @@ Step 3: add the atuomated task
 ### <a id="32"> </a> Failed to start Task: problem with doOnURl
     
 -   As seen in below screen shot you will notice “Failed to start Task: problem with doOnURl”
-<img src="images/deploymentplan.jpg" width="1200px">
+<img src="images/deploymentplan.png" width="1200px">
     
 -   This is due to version wont be there in snapshot. We need to add in snapshot. Click on snapshot à component version add.
 <img src="images/ud_snap.png" width="1200px">
