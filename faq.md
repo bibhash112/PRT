@@ -168,7 +168,7 @@ Please check if "Import Versions Automatically" section has been checked in UDep
     
 -  “Run process after creating a new version “field is not selected in component configuration to run the process automatically for new version imports. Please enable this option.
     
-Home > Components > {application} > Configuration 
+	Home > Components > {application} > Configuration 
 <img src="images/runprocess.png" width="1200px">
     
 -   Please do verify the version number in both Artifactory and Udeploy’s Component Configuration
@@ -185,10 +185,10 @@ Go to estore sDaas Modify Request http://estore.cisco.com/RequestCenter/servicec
     
 -  In uDeploy navigate to  Applications>  go to your application > in environment tab there will be
     
-environments > in that play button will be there please click on that.
+	environments > in that play button will be there please click on that.
 <img src="images/snap1.png" width="1200px">
     
-However it is recommended to use uRelease to deploy to any non-Dev environment to not to violate SOX . 
+	However it is recommended to use uRelease to deploy to any non-Dev environment to not to violate SOX . 
 
     
 ### <a id="10"> </a> how to check the deployment log?
@@ -240,7 +240,7 @@ However it is recommended to use uRelease to deploy to any non-Dev environment t
     
 -   Create a new snapshot by selecting the version which you wanted to deploy.
     
-Home > Applications > {your application} > Snapshots > Snapshot: {name} > Component Versions > add
+	Home > Applications > {your application} > Snapshots > Snapshot: {name} > Component Versions > add
 <img src="images/ver.png" width="1200px">
 
 ### <a id="20"> </a> Version import is taking a lot of  time,  would be started 2 hours back and still in Executing status.
@@ -351,8 +351,7 @@ Step 3: add the atuomated task
 ### <a id="34"> </a> Udeploy Deployment fails with the Error: Deployment has failed in UDeploy with the error output “jbossews process failed to start” and “Error deploying local file. You can try to deploy manually with:ssh –t..”
 
 -   Please do contact LAE team - "lae-operations".
-    
-<img src="images/lae.png" width="1200px">(https://apps.na.collabserv.com/wikis/home/wiki/W8a035710e5dd_4861_adc6_1db5506a4cab/page/uDeploy%20and%20uRelease%20FAQs)
+   https://apps.na.collabserv.com/wikis/home/wiki/W8a035710e5dd_4861_adc6_1db5506a4cab/page/uDeploy%20and%20uRelease%20FAQs
     
 ### <a id="35"> </a> How to promote snapshot from Dev to Upper Environments?
     
