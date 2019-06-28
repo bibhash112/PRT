@@ -431,7 +431,7 @@ Step 3: add the atuomated task
     
 ### <a id="43"> </a> How to create build for multistack application?
     
-Refer to this [ICX](https://apps.na.collabserv.com/wikis/home/wiki/W4ae5df2fa9b8_419b_8361_46b3d6f6ebda/page/Software%20Development%20Stack%20%28SDaaS%29%20for%20Advanced%20Deployment%20%28LAE%29) document for step by step instructions.
+Refer to this [document](https://apps.na.collabserv.com/wikis/home/wiki/W4ae5df2fa9b8_419b_8361_46b3d6f6ebda/page/Software%20Development%20Stack%20%28SDaaS%29%20for%20Advanced%20Deployment%20%28LAE%29) in the ICX page for step by step instructions.
     
     
 ### <a id="44"> </a> What needs to be done when the deployment log shows version already installed?
@@ -502,7 +502,7 @@ Please delete tags from container.cisco.com . Version is not imported in uDeploy
     
 ### <a id="55"> </a> Sox validation in uDeploy/uRelease through Rally .
     
-Refer SOX Validation in uDeploy/uRelease through Rally (https://apps.na.collabserv.com/wikis/home/wiki/W52d8c1c91d6a_41eb_a30f_021c10f3ec18/page/SOX%20Validation%20in%20uDeployuRelease%20through%20Rally%C2%A0)
+Refer SOX Validation in uDeploy/uRelease through Rally [document](https://apps.na.collabserv.com/wikis/home/wiki/W52d8c1c91d6a_41eb_a30f_021c10f3ec18/page/SOX%20Validation%20in%20uDeployuRelease%20through%20Rally%C2%A0) in the ICX page.
     
 ### <a id="56"> </a> Snapshots failing at SOX validation step (Rally).
     
