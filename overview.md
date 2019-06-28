@@ -5,7 +5,7 @@ weight: 1
 ---
 
 
-##UrbanCode Deploy
+**UrbanCode Deploy**
 
 IBM UrbanCode <a href="https://deploy.cisco.com:8443/" target="_blank">Deploy</a>   is a tool for automating application deployments in multiple environments.
 
@@ -18,7 +18,7 @@ The release automation tools in IBM UrbanCode Deploy provide complete visibility
 This tool can be used to model processes that orchestrate complex deployments across every environment and approval gate.
 
 
-##UrbanCode Release
+**UrbanCode Release**
 
 IBM UrbanCode  <a href="https://release.cisco.com:8443/" target="_blank">Release</a>, formerly called uRelease, is a collaborative release management tool that helps to handle the growing number and complexity of releases.
 
