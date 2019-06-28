@@ -124,7 +124,7 @@ This step defines how to build & deploy to primary development lifecycles. In th
 
  
 
-###Step 4.1: Build the Project/Job
+### Step 4.1: Build the Project/Job
 
  
 
@@ -134,7 +134,7 @@ Click on Build Now option to start maven build. You can view progress of the bui
 
  
 
-###Step 4.2: Validate the Snapshot in Artifactory
+### Step 4.2: Validate the Snapshot in Artifactory
 
  
 
@@ -176,7 +176,7 @@ Note : UDeploy tool will auto pick(Every 4-5 mins) the latest file uploaded & de
 
  
 
-###Step 4.3: Verify the Deployment Activities
+### Step 4.3: Verify the Deployment Activities
 
  
 
@@ -201,7 +201,7 @@ c)   Click on View Request at the right corner of the page – Execution status 
 **Step 5: Promote to Release Lifecycles**
  
 
-###Step 5.1: Release the build
+### Step 5.1: Release the build
 
  
 
@@ -227,7 +227,7 @@ If the build is successful then it will be promoted to Artifactory.
 
  
 
-###Step 5.2: Validate the Release in Artifactory
+### Step 5.2: Validate the Release in Artifactory
 
  
 
@@ -235,7 +235,7 @@ Go back to Artifactory UI & this time expand the ext-release-local folder & trav
 
 
 
-###Step 5.3: Create Snapshot for Promote
+### Step 5.3: Create Snapshot for Promote
 
  
 
@@ -267,7 +267,7 @@ Right after that the Snapshot would appear in URelease & is ready to promote to 
 
  
 
-###Step 5.4: Promote using URelease
+### Step 5.4: Promote using URelease
 
  
 
@@ -322,20 +322,20 @@ Frequently Asked Questions:
 No#
 Question
 Answer
-#1 How do we merge the branches if 2 or more branches seem to work good in the primary lifecycle
+##### 1 How do we merge the branches if 2 or more branches seem to work good in the primary lifecycle
 
 You can merge the branches to the development brach & deploy that to Dev environment
-#2	Lets say I work on #1 feature, my teammate works on #2 . If both the branches work fine, can we merge them and release the code to the prod with both the features.	Yes. That's the way development team collaborates
-#3	Can I use the feature for existing Stack?	Yes. SDaaS-Modify service provides you the capability to convert existing stack into multiple pipeline when you are ready.
-#4	Do we always have to use multiple pipeline feature?	No. It depends on your requirement. If you don't have multiple teams working simultaneously on different features , you can still use existing to have single pipeline.
-#5	If my project consists of multiple modules as dependencies for web module, does all dependent modules also have to be named with lifecycle ?
+##### 2	Lets say I work on #1 feature, my teammate works on #2 . If both the branches work fine, can we merge them and release the code to the prod with both the features.	Yes. That's the way development team collaborates
+##### 3	Can I use the feature for existing Stack?	Yes. SDaaS-Modify service provides you the capability to convert existing stack into multiple pipeline when you are ready.
+##### 4	Do we always have to use multiple pipeline feature?	No. It depends on your requirement. If you don't have multiple teams working simultaneously on different features , you can still use existing to have single pipeline.
+##### 5	If my project consists of multiple modules as dependencies for web module, does all dependent modules also have to be named with lifecycle ?
 
 There is no change in dependency mapping. You can continue to build the dependencies that way you do today.
-#6	will the custom lifecycle string specified in estore available in LAE environment ? e..g, using the variable in shell scripts.
+##### 6	will the custom lifecycle string specified in estore available in LAE environment ? e..g, using the variable in shell scripts.
 
 Yes, you can still get the lifecycle value from the appname like what you currently have done in pre* scripts.
-#7	The team should merge the branches in GIT and create another job in jenkins and promote it to artifactory release?	Every Primary deployment lifecycle will have one Jenkins job. If you merge the code into development brach & that needs to be deployed to Dev there will be a Jenkins job provisioned for that, same will be used  .
-#8	How to create tar.gz for LAE migration?
+##### 7	The team should merge the branches in GIT and create another job in jenkins and promote it to artifactory release?	Every Primary deployment lifecycle will have one Jenkins job. If you merge the code into development brach & that needs to be deployed to Dev there will be a Jenkins job provisioned for that, same will be used  .
+##### 8	How to create tar.gz for LAE migration?
 
 How to do the DB setup for jboss-eap-6.x  ?
 
@@ -345,10 +345,10 @@ The process is documented at below location
 
   2. JBoss Database setup http://wikicentral.cisco.com/display/LAEDOCS/Database+setup+for+JBoss
 
-#9	I have recently heard about CCIX to LAE Migration. Is there any information around it ?	
+##### 9	I have recently heard about CCIX to LAE Migration. Is there any information around it ?	
 Please use the guide :
 
 http://wikicentral.cisco.com/display/LAEDOCS/CCIX+Migrate+to+LAE+User+Guide
 
-#10	Where can I find detailed documentation for multiple pipeline feature?	The attached word document contains the details along UI !screenshots.
-#11	I am able to take the snapshot from development version to promote, it does not error out but deployment did not happen to Stage.	The process fails silently. In order t promote, you should always take the screenshot from release version.
+##### 10	Where can I find detailed documentation for multiple pipeline feature?	The attached word document contains the details along UI !screenshots.
+##### 11	I am able to take the snapshot from development version to promote, it does not error out but deployment did not happen to Stage.	The process fails silently. In order t promote, you should always take the screenshot from release version.
