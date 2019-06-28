@@ -431,7 +431,7 @@ Step 3: add the atuomated task
     
 ### <a id="43"> </a> How to create build for multistack application?
     
-Refer to the <a href="https://cisco.jiveon.com/docs/DOC-101972" target="_blank">JIVE page</a> (https://apps.na.collabserv.com/wikis/home/wiki/W4ae5df2fa9b8_419b_8361_46b3d6f6ebda/page/Software%20Development%20Stack%20%28SDaaS%29%20for%20Advanced%20Deployment%20%28LAE%29) for step by step instructions.
+Refer to this [ICX](https://apps.na.collabserv.com/wikis/home/wiki/W4ae5df2fa9b8_419b_8361_46b3d6f6ebda/page/Software%20Development%20Stack%20%28SDaaS%29%20for%20Advanced%20Deployment%20%28LAE%29) document for step by step instructions.
     
     
 ### <a id="44"> </a> What needs to be done when the deployment log shows version already installed?
@@ -473,11 +473,11 @@ Following criteria should be met for the “Passed Validation” gate to be adde
     
 ### <a id="48"> </a> Teradata Deployment Guide.
     
-Please follow the below jive page https://cisco.jiveon.com/docs/DOC-710333 (https://apps.na.collabserv.com/wikis/home/wiki/W3213ca86d305_4c1a_b111_89b8dadb845e/page/Teradata%20Deployment%20Guide) Teradata Deployment Guide
+Please follow the [Teradata Deployment Guide](https://apps.na.collabserv.com/wikis/home/wiki/W3213ca86d305_4c1a_b111_89b8dadb845e/page/Teradata%20Deployment%20Guide) in the ICX page. 
 
 ### <a id="49"> </a> uDeploy User Guide for OBIEE.
     
-Please follow the below jive page https://cisco.jiveon.com/docs/DOC-24089    (https://apps.na.collabserv.com/wikis/home/wiki/Wbfdcbc9fda6c_43c5_a5fe_cf0bd3fce99a/page/SRA%20uDeploy%20User%20Guide%20For%20OBIEE) SRA uDeploy User Guide For OBIEE
+Please follow the [SRA uDeploy User Guide For OBIEE](https://apps.na.collabserv.com/wikis/home/wiki/Wbfdcbc9fda6c_43c5_a5fe_cf0bd3fce99a/page/SRA%20uDeploy%20User%20Guide%20For%20OBIEE) in the ICX page. 
     
 ### <a id="50"> </a> Change/Setup environment variable in SFDC workflow in uDeploy
     
@@ -506,7 +506,7 @@ Refer SOX Validation in uDeploy/uRelease through Rally (https://apps.na.collabse
     
 ### <a id="56"> </a> Snapshots failing at SOX validation step (Rally).
     
-Refer https://cisco.jiveon.com/docs/DOC-1913239#jive_content_id_SNAPSHOTS_are_failing_inat_UDeployARRT_setup	(https://apps.na.collabserv.com/wikis/home/wiki/W8a035710e5dd_4861_adc6_1db5506a4cab/page/uDeploy%20and%20uRelease%20FAQs?lang=en-us&section=jive_content_id_SNAPSHOTS_are_failing_inat_UDeployARRT_setup)
+Refer this [document](https://apps.na.collabserv.com/wikis/home/wiki/W8a035710e5dd_4861_adc6_1db5506a4cab/page/uDeploy%20and%20uRelease%20FAQs?lang=en-us&section=jive_content_id_SNAPSHOTS_are_failing_inat_UDeployARRT_setup) in the ICX page.
     
 ### <a id="57"> </a> Tags not imported in uDeploy for CAE application.
     
