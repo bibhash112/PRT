@@ -151,7 +151,6 @@ Stack can be ordered for all the available lifecycles in a single order. If you 
     
 After including **.pom in Jenkins configuration include pattern and generating a new build, the required POM and tar.gz files are pushed to Artifactory & uDeploy is able to pull the file from artifactory successfully.
 <img src="images/maven.png" width="1200px">
-    
 
 ### <a id="6"> </a> Build  is successful, but version import is failing in uDeploy or Latest Versions are not getting imported in UDeploy; getting a notification as “Version import failed! Check the component’s configuration for more details”:
     
@@ -243,18 +242,18 @@ However it is recommended to use uRelease to deploy to any non-Dev environment t
 
 ### <a id="20"> </a> Version import is taking a lot of  time,  would be started 2 hours back and still in Executing status.
     
--   Please raise a case in SRM (search with uDeploy)   
+-   Please raise a case in [Service Now](https://cisco.service-now.com/) (Service Offering: Release Automation)   
 <img src="images/ver_his.png" width="1200px">
  
     
-### <a id="21"> </a> Deletion of  a  sDaaS stack required due to inappropriate information provided
+### <a id="21"> </a> Deletion of a sDaaS stack required due to inappropriate information provided
     
--   Please go to Estore search with SDaaS and there is delete request for deleting the SDaaS stack
+-   Please go to [Estore](http://estore.cisco.com) search with SDaaS and there is delete request for deleting the SDaaS stack
 <img src="images/sdaas_delete.png" width="1200px">
     
 ### <a id="22"> </a> Latest snapshot not getting updated quickly in uRelease
     
--   There is a 15minute cycle for pulling the latest snapshots from uDeploy. As there are many snapshots to be pulled it will take some time.
+-   There is a 15 minute cycle for pulling the latest snapshots from uDeploy. As there are many snapshots to be pulled it will take some time.
         
 ### <a id="23"> </a> Deployment is successful in uDeploy but the restart of CCIX application is not happening after deployment to dev/stage/lt/prod
     
@@ -262,17 +261,17 @@ However it is recommended to use uRelease to deploy to any non-Dev environment t
     
 ### <a id="24"> </a> Submitted SdaaS request  # ,  however it is still showing 0% complete.
     
--   Please contact PaaS  Team [mailto:citeis-paas-support@cisco.com](mailto:citeis-paas-support@cisco.com)
+-   Please contact PaaS  Team [citeis-paas-support@cisco.com](mailto:citeis-paas-support@cisco.com)
     
     
 ### <a id="25"> </a>  For  one application, steps are not present in application process.
     
--   Please raise a case in [Service Now](https://cisco.service-now.com/) (service offering -Release Automation)
+-   Please raise a case in [Service Now](https://cisco.service-now.com/) (Service Offering: Release Automation)
     
     
 ### <a id="26"> </a> User not able to see Application in pipeline view but stack is configured.
     
--   Application admin should check if the setup is fine .If everything looks good with the setup, check QA AD Group and ask user to request membership for that AD Group from ADAM (http://adam.cisco.com/)
+-   Application admin should check if the setup is fine .If everything looks good with the setup, check QA AD Group and ask user to request membership for that AD Group from [ADAM](http://adam.cisco.com/)
    
     
 ### <a id="27"> </a> Build is not proper as it is going to ext-release-local instead of ext-snapshot-local
@@ -291,7 +290,7 @@ Ex: 1.0.0-SNAPSHOT
     
 <img src="images/qualitystatus.png" width="1200px">
     
--   User needs to check with Application admin as he needs to subscribe himself for the application admin ad group from ADAM (http://adam.cisco.com/).
+-   User needs to check with Application admin as he needs to subscribe himself for the application admin ad group from [ADAM](http://adam.cisco.com/).
        
 ### <a id="29"> </a> While  migrating a project from ANT to MAVEN, user will need to upload jars to Cisco Repository.
     
@@ -308,7 +307,7 @@ User deleted the deployment task by  mistake,  application admins will be able t
     
 1.  back to resolve the issue by clicking on Add Automated task and selecting taskà Save
     
-CASE 1: If deployment task exist only autoated task is missing please follow below step
+CASE 1: If deployment task exista and only autoated task is missing, please follow below step
     
 Step 1: add the automated task
 <img src="images/add_task.png" width="1200px">
@@ -348,8 +347,7 @@ Step 3: add the atuomated task
     
 ### <a id="34"> </a> Udeploy Deployment fails with the Error: Deployment has failed in UDeploy with the error output “jbossews process failed to start” and “Error deploying local file. You can try to deploy manually with:ssh –t..”
 
--   Please do contact LAE team - "lae-operations".
-   https://apps.na.collabserv.com/wikis/home/wiki/W8a035710e5dd_4861_adc6_1db5506a4cab/page/uDeploy%20and%20uRelease%20FAQs
+-   Please do contact LAE team - "[lae-operations@cisco.com](mailto:lae-operations@cisco.com)".
     
 ### <a id="35"> </a> How to promote snapshot from Dev to Upper Environments?
     
@@ -414,7 +412,7 @@ Step 3: add the atuomated task
     
 ### <a id="41"> </a> How to request membership for particular AD group?
  
--   login to ADAM's Account [http://adam.cisco.com/](http://adam.cisco.com/)
+-   login to [ADAM](http://adam.cisco.com/)'s Account.
 -   Goto Group Search, search for AD Group name which you have or our team has shared with you.
 
 <img src="images/ad.png" width="1200px">
@@ -424,7 +422,7 @@ Step 3: add the atuomated task
     
 ### <a id="42"> </a> How to import version manually?
     
--   login to uDeploy [https://deploy.cisco.com:8443/](https://deploy.cisco.com:8443/)
+-   login to [uDeploy](https://deploy.cisco.com:8443/).
 -   Navigate to the application and click on the application name
 -   There will be sub-tabs for that application such as Environment, History, Components etc, select the component tab and click on the component name
 -   Navigate to versions tab
