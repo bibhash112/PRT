@@ -1,5 +1,5 @@
 
-### Software Development Stack (SDaaS) for Advanced Deployment (LAE)
+## Software Development Stack (SDaaS) for Advanced Deployment (LAE)
 
 Multiple pipeline feature is an advance use case for deployment. It enables the application development teams to work on different  features concurrently by utilizing the option of having single application stack wired up for multiple development and deployment pipelines including standard and custom life cycles offered by LAE runtime platform.
 
@@ -21,7 +21,7 @@ MPD4.png
 
  
 
-## Step by Step Process with example:
+### Step by Step Process with example:
 
  
 
@@ -124,7 +124,7 @@ This step defines how to build & deploy to primary development lifecycles. In th
 
  
 
-4.1 Build the Project/Job
+###Step 4.1: Build the Project/Job
 
  
 
@@ -134,7 +134,7 @@ Click on Build Now option to start maven build. You can view progress of the bui
 
  
 
-4.2 Validate the Snapshot in Artifactory
+###Step 4.2: Validate the Snapshot in Artifactory
 
  
 
@@ -176,7 +176,7 @@ Note : UDeploy tool will auto pick(Every 4-5 mins) the latest file uploaded & de
 
  
 
-4.3 Verify the Deployment Activities
+###Step 4.3: Verify the Deployment Activities
 
  
 
@@ -201,7 +201,7 @@ c)   Click on View Request at the right corner of the page – Execution status 
 **Step 5: Promote to Release Lifecycles**
  
 
-5.1 Release the build
+###Step 5.1: Release the build
 
  
 
@@ -227,7 +227,7 @@ If the build is successful then it will be promoted to Artifactory.
 
  
 
-5.2 Validate the Release in Artifactory
+###Step 5.2: Validate the Release in Artifactory
 
  
 
@@ -235,7 +235,7 @@ Go back to Artifactory UI & this time expand the ext-release-local folder & trav
 
 
 
-5.3 Create Snapshot for Promote
+###Step 5.3: Create Snapshot for Promote
 
  
 
@@ -267,7 +267,7 @@ Right after that the Snapshot would appear in URelease & is ready to promote to 
 
  
 
-5.4 Promote using URelease
+###Step 5.4: Promote using URelease
 
  
 
