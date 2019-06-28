@@ -10,7 +10,7 @@ weight: 3
     
 -   [How to modify the AD group for our application as we have done segregation of duties.](#3)
     
--   [Should we suppose to submit separate stack creation requests for Dev, Stage, LT& Prod lifecycles of my Application?](#4)
+-   [Are we suppose to submit separate stack creation requests for Dev, Stage, LT& Prod lifecycles of my Application?](#4)
     
 -   [For one application, POM file was not published to artifactory and hence uDeploy could not download the exact file it was looking for.](#5)
     
@@ -130,19 +130,18 @@ Please contact your application admin and get access to Development AD group to 
     
 - Could you please check in your sDaaS you have selected Software Release Automation as Yes or No.
 - If you selected as No please go to modify request from Estore and change it to  Yes  fill the required fields and submit the request.
-![sdaas_new](images/sdaas_new.png)
+<img src="images/sdaas_new.png" width="1200px">
 
         
 ### <a id="3"> </a> How to modify the AD group for our application as we have done segrigation of duties.
     
 Please go to modify request from Estore and select your application.
-![sdaas_modify](images/sdaas_modify.png)
+<img src="images/sdaas_modify.png" width="1200px">
 
  It will auto populate the all the details please do necessary changes and submit the request.
-![acm1](images/acm1.png)
-    
+<img src="images/acm1.png" width="1200px">  
 
-### <a id="4"> </a> Should we suppose to submit separate stack creation requests for Dev, Stage, LT& Prod lifecycles of my Application?]
+### <a id="4"> </a> Are we suppose to submit separate stack creation requests for Dev, Stage, LT& Prod lifecycles of my Application?]
     
 Stack can be ordered for all the available lifecycles in a single order. If you have requested only Dev for now and if you want to request other life cycle you can use sDaaS modify request from Estore.
 
@@ -151,13 +150,12 @@ Stack can be ordered for all the available lifecycles in a single order. If you 
 ### <a id="5"> </a> For  one application, POM file was not published to artifactory and hence uDeploy could not download the exact file it was looking for.
     
 After including **.pom in Jenkins configuration include pattern and generating a new build, the required POM and tar.gz files are pushed to Artifactory & uDeploy is able to pull the file from artifactory successfully.
-![maven](images/maven.png)
-    
+<img src="images/maven.png" width="1200px">
 
 ### <a id="6"> </a> Build  is successful, but version import is failing in uDeploy or Latest Versions are not getting imported in UDeploy; getting a notification as “Version import failed! Check the component’s configuration for more details”:
     
 Please check if "Import Versions Automatically" section has been checked in UDeploy's Component configuration of the specific application as it has to be checked for versions to import automatically into UDeploy, else the version has to be imported manually.
-![import](images/import.png)
+<img src="images/import.png" width="1200px">
     
 -  Please do verify the artifactory configuration in UDeploy’s Component Configuration i.e. Repository, Group ID, Artifact ID are configured correctly. These data should match with Artifactory’s POM.xml file. Please ensure POM.xml has sufficient and correct data in it to get the latest version in UDeploy and the deployment to go on successfully.
 -  Also maven-metadata.xml has to be present in the artifactory's project folder.
@@ -169,8 +167,8 @@ Please check if "Import Versions Automatically" section has been checked in UDep
     
 -  “Run process after creating a new version “field is not selected in component configuration to run the process automatically for new version imports. Please enable this option.
     
-Home > Components > {application} > Configuration 
-![runprocess](images/runprocess.png)
+	Home > Components > {application} > Configuration 
+<img src="images/runprocess.png" width="1200px">
     
 -   Please do verify the version number in both Artifactory and Udeploy’s Component Configuration
 -   If the build is not uploaded in artifactory, then please do check the Jenkins configuration.
@@ -179,28 +177,26 @@ Home > Components > {application} > Configuration
       
 ### <a id="8"> </a>  How  do I change the Artifact ID for my already provisioned application in uDeploy?
     
-Go to estore sDaas Modify Request http://estore.cisco.com/RequestCenter/servicecatalog/servicecatalog.do?route=offer&id=655 and order for the change of artifact Id .
+Go to estore [sDaas Modify](http://estore.cisco.com/RequestCenter/servicecatalog/servicecatalog.do?route=offer&id=655) Request and order for the change of artifact Id .
 
     
 ### <a id="9"> </a> How to deploy the code manually in uDeploy?
     
--  In uDeploy navigate to  Applications>  go to your application > in environment tab there will be
-    
-environments > in that play button will be there please click on that.
-![snap1](images/snap1.png)
+-  In uDeploy navigate to  Applications>  go to your application > in environment tab there will be environments > in that play button will be there please click on that.
+<img src="images/snap1.png" width="1200px">
     
 However it is recommended to use uRelease to deploy to any non-Dev environment to not to violate SOX . 
 
     
-### <a id="10"> </a> how to check the deployment log?
+### <a id="10"> </a> How to check the deployment log?
     
--   In uDeploy navigate to Applications> go to your application > in environment tab there will be environments> click on the environment dropdown > click on view request there you will see the details log   
-![deploy](images/deploy.png) 
+-   In uDeploy navigate to Applications> go to your application > in environment tab there will be environments> click on the environment dropdown > click on view request there you will see the details log    
+<img src="images/deploy.png" width="1200px">
 
 ### <a id="11"> </a> How to create a snapshot for the release?
     
--   In uDeploy navigate to Applications> go to your application > in environment tab there will be environments> click on camera button or go to snapshot tab and click on create
-![snap2](images/snap2.png)   
+-   In uDeploy navigate to Applications> go to your application > in environment tab there will be environments> click on camera button or go to snapshot tab and click on create  
+<img src="images/snap2.png" width="1200px"> 
     
 ### <a id="12"> </a> How to schedule the deployment in udeploy?
     
@@ -220,7 +216,7 @@ However it is recommended to use uRelease to deploy to any non-Dev environment t
 ### <a id="15"> </a> In  uRelease, Gate Status is Failed ,1 Missing Quality Status, CI Setup(Failed) is shown when trying to deploy
     
 -   User needs to go to Execution and Deployment Plan and add the missing Gate (CI Setup) by clicking on the + symbol under Quality Status
-![app](images/app.png)
+<img src="images/app.png" width="1200px">
     
 ### <a id="16"> </a> I have schedule a deployment in uRelease but deployment has not started automatically?
     
@@ -229,53 +225,53 @@ However it is recommended to use uRelease to deploy to any non-Dev environment t
 
 ### <a id="17"> </a> After snapshot creation, Start Deployment button was not available.
     
--   Please contact you application admin and subscribe for Application admin AD group from http://adam.cisco.com
+-   Please contact you application admin and subscribe for Application admin AD group from [Adam](http://adam.cisco.com) page.
     
 ### <a id="18"> </a> Deployment successful in uDeploy, but latest war file is not updated to tomcat Dev/Stage/Prod server
     
 -   Please contact platform team .
--   LAE platform - lae-operations@cisco.com
--   AWS Team (CCIX) - gs-pss-wipro@cisco.com
+-   LAE platform - [lae-operations@cisco.com](mailto:lae-operations@cisco.com)
+-   AWS Team (CCIX) - [gs-pss-wipro@cisco.com](mailto:gs-pss-wipro@cisco.com)
     
 ### <a id="19"> </a> How to deploy an old version in udeploy
     
 -   Create a new snapshot by selecting the version which you wanted to deploy.
     
-Home > Applications > {your application} > Snapshots > Snapshot: {name} > Component Versions > add
-![ver](images/ver.png)
+	Home > Applications > {your application} > Snapshots > Snapshot: {name} > Component Versions > add
+<img src="images/ver.png" width="1200px">
 
 ### <a id="20"> </a> Version import is taking a lot of  time,  would be started 2 hours back and still in Executing status.
     
--   Please raise a case in SRM (search with uDeploy)
-![ver_his](images/ver_his.jpg)   
+-   Please raise a case in [Service Now](https://cisco.service-now.com/) (Service Offering: Release Automation)   
+<img src="images/ver_his.png" width="1200px">
  
     
-### <a id="21"> </a> Deletion of  a  sDaaS stack required due to inappropriate information provided
+### <a id="21"> </a> Deletion of a sDaaS stack required due to inappropriate information provided
     
--   Please go to Estore search with SDaaS and there is delete request for deleting the SDaaS stack
-![image015.jpg](images/sdaas_delete.jpg)
+-   Please go to [Estore](http://estore.cisco.com) search with SDaaS and there is delete request for deleting the SDaaS stack
+<img src="images/sdaas_delete.png" width="1200px">
     
 ### <a id="22"> </a> Latest snapshot not getting updated quickly in uRelease
     
--   There is a 15minute cycle for pulling the latest snapshots from uDeploy. As there are many snapshots to be pulled it will take some time.
+-   There is a 15 minute cycle for pulling the latest snapshots from uDeploy. As there are many snapshots to be pulled it will take some time.
         
 ### <a id="23"> </a> Deployment is successful in uDeploy but the restart of CCIX application is not happening after deployment to dev/stage/lt/prod
     
--   Please contact AWS Team (gs-pss-wipro@cisco.com)
+-   Please contact AWS Team [gs-pss-wipro@cisco.com](mailto:gs-pss-wipro@cisco.com)
     
 ### <a id="24"> </a> Submitted SdaaS request  # ,  however it is still showing 0% complete.
     
--   Please contact PaaS  Team(citeis-paas-support@cisco.com)
+-   Please contact PaaS  Team [citeis-paas-support@cisco.com](mailto:citeis-paas-support@cisco.com)
     
     
 ### <a id="25"> </a>  For  one application, steps are not present in application process.
     
--   Please raise a case in Service Now (service offering -Release Automation)
+-   Please raise a case in [Service Now](https://cisco.service-now.com/) (Service Offering: Release Automation)
     
     
 ### <a id="26"> </a> User not able to see Application in pipeline view but stack is configured.
     
--   Application admin should check if the setup is fine .If everything looks good with the setup, check QA AD Group and ask user to request membership for that AD Group from ADAM (http://adam.cisco.com/)
+-   Application admin should check if the setup is fine .If everything looks good with the setup, check QA AD Group and ask user to request membership for that AD Group from [ADAM](http://adam.cisco.com/)
    
     
 ### <a id="27"> </a> Build is not proper as it is going to ext-release-local instead of ext-snapshot-local
@@ -283,62 +279,61 @@ Home > Applications > {your application} > Snapshots > Snapshot: {name} > Compon
 There can be two possibilities:
     
 1.  Check whether the Configuration settings in Jenkins are as below. If not, Request application  team to change the path in Jenkins build.
-![conf_jenkins](images/conf_jenkins.jpg)
+<img src="images/conf_jenkins.jpg" width="1200px">
     
 2.  Check the version number in pom.xml file. It has to be in XXX-SNAPSHOT format.
     
 Ex: 1.0.0-SNAPSHOT 
-![ver_conf](images/ver_conf.jpg)
+<img src="images/ver_conf.jpg" width="1200px">
     
 ### <a id="28"> </a> While  trying to add Quality Status,user does not see the required quality status/gate in dropdown (Ex:CI Setup)
     
-![qualitystatus.jpg](images/qualitystatus.jpg)
+<img src="images/qualitystatus.png" width="1200px">
     
--   User needs to check with Application admin as he needs to subscribe himself for the application admin ad group from ADAM (http://adam.cisco.com/).
+-   User needs to check with Application admin as he needs to subscribe himself for the application admin ad group from [ADAM](http://adam.cisco.com/).
        
 ### <a id="29"> </a> While  migrating a project from ANT to MAVEN, user will need to upload jars to Cisco Repository.
     
 -   You can raise an estore sdaas  request[In estore search for Sdaas] with target environment as ‘Artifactory’ and Artifactory Access type as ‘Public’.
 -   Once raised, a confirmation mail will be received with the artifactory URL Details for uploading their files.
-![art_info.jpg](images/art_info.jpg)
+<img src="images/art_info.png" width="1200px">
     
 ### <a id="30"> </a> How to restore the deployment task if accidentally deleted by a team member?
     
 When user is trying to start deployment for the application in stage, getting error “This deployment plan does not contain any runnable tasks” User not able to see pre-deployment tasks being populated and unable to create automated task
-![deploymenttask.jpg](images/deploymenttask.jpg)
+<img src="images/deploymenttask.jpg" width="1200px">
     
 User deleted the deployment task by  mistake,  application admins will be able to add the task
     
 1.  back to resolve the issue by clicking on Add Automated task and selecting taskà Save
     
-CASE 1: If deployment task exist only autoated task is missing please follow below step
+CASE 1: If deployment task exista and only autoated task is missing, please follow below step
     
 Step 1: add the automated task
-![add_task.jpg](images/add_task.jpg)
-    
+<img src="images/add_task.png" width="1200px">
 CASE 2: If Deployment task it self is deleted
     
-Step1: click on Create segment please follow below step
-![create_segment.png](images/create_segment.png)   
-Step 2: fill the details as below[![details.jpg](images/details.jpg)
-    
+Step1: click on Create segment please follow below step 
+<img src="images/create_segment.png" width="1200px">  
+Step 2: fill the details as below 
+<img src="images/details.png" width="1200px">    
 Step 3: add the atuomated task
-![add_task1.jpg](images/add_task1.jpg) 
+<img src="images/add_task1.png" width="1200px">
    
 ### <a id="31"> </a> How to add or apply the freeze to our applications.
     
--   For adding or applying Freeze, you can add it in Blackout plan for your applications in uDeploy (uDeploy > Applications > Environments > Calendar)
-![calender.png](images/calender.png)       
+-   For adding or applying Freeze, you can add it in Blackout plan for your applications in uDeploy (uDeploy > Applications > Environments > Calendar) 
+<img src="images/calender.png" width="1200px">     
     
 ### <a id="32"> </a> Failed to start Task: problem with doOnURl
     
 -   As seen in below screen shot you will notice “Failed to start Task: problem with doOnURl”
-![deploymentplan.jpg](images/deploymentplan.jpg)
+<img src="images/deploymentplan.png" width="1200px">
     
 -   This is due to version wont be there in snapshot. We need to add in snapshot. Click on snapshot à component version add.
-![ud_snap.png](images/ud_snap.png)
+<img src="images/ud_snap.png" width="1200px">
     
-![ud_snap1.png](images/ud_snap1.png)
+<img src="images/ud_snap1.png" width="1200px">
     
 ### <a id="33"> </a> How can I deploy old snapshot in URelease?
     
@@ -352,24 +347,22 @@ Step 3: add the atuomated task
     
 ### <a id="34"> </a> Udeploy Deployment fails with the Error: Deployment has failed in UDeploy with the error output “jbossews process failed to start” and “Error deploying local file. You can try to deploy manually with:ssh –t..”
 
--   Please do contact LAE team - "lae-operations".
-    
-![lae.png](images/lae.png)(https://apps.na.collabserv.com/wikis/home/wiki/W8a035710e5dd_4861_adc6_1db5506a4cab/page/uDeploy%20and%20uRelease%20FAQs)
+-   Please do contact LAE team - "[lae-operations@cisco.com](mailto:lae-operations@cisco.com)".
     
 ### <a id="35"> </a> How to promote snapshot from Dev to Upper Environments?
     
--   Login to uRelease (https://release.cisco.com/login) using your CEC credentials
-![ur.png](images/ur.png)  
+-   Login to [uRelease](https://release.cisco.com/login) using your CEC credentials  
+<img src="images/ur.png" width="1200px">
     
 -   Click on the Pipeline View and select the application from the drop down list that you wish to deploy
 -   In the NEWEST section users will see the latest snapshot being pulled into uRelease
 -   Drag and drop the snapshot to the environment to which the next deployment has to go as in the below screenshot.
-![pipeline.png](images/pipeline.png)
+<img src="images/pipeline.png" width="1200px">
     
     
 -   After the drag and drop, you have to schedule as in below screenshot.
     
-![schedule.png](images/schedule.png)
+<img src="images/schedule.png" width="1200px">
     
 -   Check "Start Automatically" to start the deployment automatically
 -   Users can then trigger deployment from Deployment Plan to trigger it manually.
@@ -380,17 +373,17 @@ Step 3: add the atuomated task
     
 ### <a id="36"> </a> How to add a new environment in Udeploy and URelease?
     
--   Please use SDaaS Modify in Estore (http://estore.cisco.com/RequestCenter/servicecatalog/servicecatalog.do?route=offer&id=655)and request in "Life Cycle Details" section for the environment which you want to be added.
+-   Please use [SDaaS Modify](http://estore.cisco.com/RequestCenter/servicecatalog/servicecatalog.do?route=offer&id=655) in Estore and request in "Life Cycle Details" section for the environment which you want to be added.
     
 ### <a id="37"> </a> User not able to access uDeploy although he is a part of AD group specified while raising Sdaas stack. (AD Sync issue)
     
-![ud_ad](images/ud_ad.png)
+<img src="images/ud_ad.png" width="1200px">
     
     -   Need to update the user in uDeploy. Please raise a case with sra-tier1
     
 ### <a id="38"> </a>  While ordering for SdaaS stack the below error occurs for user
 
-![sdaas_order.png](images/sdaas_order.png)    
+<img src="images/sdaas_order.png" width="1200px">    
    
 -   please use other than ‘ / ‘ and ‘ _ ‘ as they are not allowed in directory path, suggested by CITEIS PaaS Support Team
     
@@ -400,32 +393,36 @@ Step 3: add the atuomated task
 -   Under Notification Configuration you can create notifications for Start/Fail/Finish of Deployment/Task/Segment
    
     
-![notification.png](images/notification.png)
+
+<img src="images/notification.png" width="1200px">
     
 -   Mail received will be of below format:
-    
-![mail.png](images/mail.png)
+
+<img src="images/mail.png" width="1200px">
     
 ### <a id="40"> </a> How to check whether the application is SOX or NON-SOX application?
--   Login to uDeploy [https://deploy.cisco.com:8443/](https://deploy.cisco.com:8443/)
-![ud_applist.png](images/ud_applist.png) 
+-   Login to [uDeploy](https://deploy.cisco.com:8443/)
+
+<img src="images/ud_applist.png" width="1200px">
 
 -   Open your application; Navigate to application -> configuration. Click on application properties on the left.
 -   If SOX value is false then application is NON sox application; if it’s true then the application is SOX application.
-![config.png](images/config.png)
+
+<img src="images/config.png" width="1200px">
     
 ### <a id="41"> </a> How to request membership for particular AD group?
  
--   login to ADAM's Account [http://adam.cisco.com/](http://adam.cisco.com/)
+-   login to [ADAM](http://adam.cisco.com/)'s Account.
 -   Goto Group Search, search for AD Group name which you have or our team has shared with you.
-![ad.png](images/ad.png)
+
+<img src="images/ad.png" width="1200px">
     
 -   Then please click on request membership and provide justification.
 -   Notify the owners and once the owners approve it, you would be part of that group.
     
 ### <a id="42"> </a> How to import version manually?
     
--   login to uDeploy [https://deploy.cisco.com:8443/](https://deploy.cisco.com:8443/)
+-   login to [uDeploy](https://deploy.cisco.com:8443/).
 -   Navigate to the application and click on the application name
 -   There will be sub-tabs for that application such as Environment, History, Components etc, select the component tab and click on the component name
 -   Navigate to versions tab
@@ -434,7 +431,7 @@ Step 3: add the atuomated task
     
 ### <a id="43"> </a> How to create build for multistack application?
     
-Refer to the JIVE page https://cisco.jiveon.com/docs/DOC-101972 (https://apps.na.collabserv.com/wikis/home/wiki/W4ae5df2fa9b8_419b_8361_46b3d6f6ebda/page/Software%20Development%20Stack%20%28SDaaS%29%20for%20Advanced%20Deployment%20%28LAE%29) for step by step instructions.
+Refer to this [document](https://apps.na.collabserv.com/wikis/home/wiki/W4ae5df2fa9b8_419b_8361_46b3d6f6ebda/page/Software%20Development%20Stack%20%28SDaaS%29%20for%20Advanced%20Deployment%20%28LAE%29) in the ICX page for step by step instructions.
     
     
 ### <a id="44"> </a> What needs to be done when the deployment log shows version already installed?
@@ -443,14 +440,16 @@ Refer to the JIVE page https://cisco.jiveon.com/docs/DOC-101972 (https://apps.na
 -   Schedule a new deployment
 -   Double click on the Process “deploy” for the application
     
-![deploy1.png](images/deploy1.png)
+
+<img src="images/deploy1.png" width="1200px">
     
 -   Wait for the Application Name to be Populated
     
-![edittask.png](images/edittask.png)
+
+<img src="images/edittask.png" width="1200px">
     
 -   Navigate to the Advanced Tab. Uncheck “Only Changed Versions” and Click on Save
-![advanced.png](images/advanced.png)
+<img src="images/advanced.png" width="1200px">
     
 -   Trigger the deployment manually or wait for it to start automatically.
     
@@ -474,11 +473,11 @@ Following criteria should be met for the “Passed Validation” gate to be adde
     
 ### <a id="48"> </a> Teradata Deployment Guide.
     
-Please follow the below jive page https://cisco.jiveon.com/docs/DOC-710333 (https://apps.na.collabserv.com/wikis/home/wiki/W3213ca86d305_4c1a_b111_89b8dadb845e/page/Teradata%20Deployment%20Guide) Teradata Deployment Guide
+Please follow the [Teradata Deployment Guide](https://apps.na.collabserv.com/wikis/home/wiki/W3213ca86d305_4c1a_b111_89b8dadb845e/page/Teradata%20Deployment%20Guide) in the ICX page. 
 
 ### <a id="49"> </a> uDeploy User Guide for OBIEE.
     
-Please follow the below jive page https://cisco.jiveon.com/docs/DOC-24089    (https://apps.na.collabserv.com/wikis/home/wiki/Wbfdcbc9fda6c_43c5_a5fe_cf0bd3fce99a/page/SRA%20uDeploy%20User%20Guide%20For%20OBIEE) SRA uDeploy User Guide For OBIEE
+Please follow the [SRA uDeploy User Guide For OBIEE](https://apps.na.collabserv.com/wikis/home/wiki/Wbfdcbc9fda6c_43c5_a5fe_cf0bd3fce99a/page/SRA%20uDeploy%20User%20Guide%20For%20OBIEE) in the ICX page. 
     
 ### <a id="50"> </a> Change/Setup environment variable in SFDC workflow in uDeploy
     
@@ -503,11 +502,11 @@ Please delete tags from container.cisco.com . Version is not imported in uDeploy
     
 ### <a id="55"> </a> Sox validation in uDeploy/uRelease through Rally .
     
-Refer SOX Validation in uDeploy/uRelease through Rally (https://apps.na.collabserv.com/wikis/home/wiki/W52d8c1c91d6a_41eb_a30f_021c10f3ec18/page/SOX%20Validation%20in%20uDeployuRelease%20through%20Rally%C2%A0)
+Refer SOX Validation in uDeploy/uRelease through Rally [document](https://apps.na.collabserv.com/wikis/home/wiki/W52d8c1c91d6a_41eb_a30f_021c10f3ec18/page/SOX%20Validation%20in%20uDeployuRelease%20through%20Rally%C2%A0) in the ICX page.
     
 ### <a id="56"> </a> Snapshots failing at SOX validation step (Rally).
     
-Refer https://cisco.jiveon.com/docs/DOC-1913239#jive_content_id_SNAPSHOTS_are_failing_inat_UDeployARRT_setup	(https://apps.na.collabserv.com/wikis/home/wiki/W8a035710e5dd_4861_adc6_1db5506a4cab/page/uDeploy%20and%20uRelease%20FAQs?lang=en-us&section=jive_content_id_SNAPSHOTS_are_failing_inat_UDeployARRT_setup)
+Refer this [document](https://apps.na.collabserv.com/wikis/home/wiki/W8a035710e5dd_4861_adc6_1db5506a4cab/page/uDeploy%20and%20uRelease%20FAQs?lang=en-us&section=jive_content_id_SNAPSHOTS_are_failing_inat_UDeployARRT_setup) in the ICX page.
     
 ### <a id="57"> </a> Tags not imported in uDeploy for CAE application.
     
@@ -536,13 +535,15 @@ No action from uDeploy end . Involve Jenkins Team(ci-dft@cisco.com) for help .
 For a sox application – who want to perform deployment which isn’t part of any Release event or doesn’t join a Release event, below are the steps to follow:-
     
 -   Post you deploy the snapshot in stage environment through URelease and triggered a Prod Schedule deployment.
-![stage1.png](images/stage1.png)  
+
+<img src="images/stage1.png" width="1200px">
     
 -   	Approve schedule deployment of PROD with the manger.
 -   	After approval, if user not joins any Release Event. Bleow are the gates added.
-![approve.png](images/approve.png)
+<!-- ![approve.png](images/approve.png) -->
+<img src="images/approve.png" width="1200px">
 	
 -   	Please add the quality status as “**Non-CDRM**” as the deployment is not part of any Release Event
 -   	And the deployment would proceed with the sox validations and sox gates would be added based on the sox test case validations
-![quality.png](images/quality.png)
-![gatefailed.png](images/gatefailed.png)
+<img src="images/quality.png" width="1200px">
+<img src="images/gatefailed.png" width="1200px">
