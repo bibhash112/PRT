@@ -10,7 +10,7 @@ weight: 3
     
 -   [How to modify the AD group for our application as we have done segregation of duties.](#3)
     
--   [Should we suppose to submit separate stack creation requests for Dev, Stage, LT& Prod lifecycles of my Application?](#4)
+-   [Are we suppose to submit separate stack creation requests for Dev, Stage, LT& Prod lifecycles of my Application?](#4)
     
 -   [For one application, POM file was not published to artifactory and hence uDeploy could not download the exact file it was looking for.](#5)
     
@@ -139,9 +139,9 @@ Please go to modify request from Estore and select your application.
 <img src="images/sdaas_modify.png" width="1200px">
 
  It will auto populate the all the details please do necessary changes and submit the request.
- <img src="images/acm1.png" width="1200px">  
+<img src="images/acm1.png" width="1200px">  
 
-### <a id="4"> </a> Should we suppose to submit separate stack creation requests for Dev, Stage, LT& Prod lifecycles of my Application?]
+### <a id="4"> </a> Are we suppose to submit separate stack creation requests for Dev, Stage, LT& Prod lifecycles of my Application?]
     
 Stack can be ordered for all the available lifecycles in a single order. If you have requested only Dev for now and if you want to request other life cycle you can use sDaaS modify request from Estore.
 
@@ -178,20 +178,18 @@ Please check if "Import Versions Automatically" section has been checked in UDep
       
 ### <a id="8"> </a>  How  do I change the Artifact ID for my already provisioned application in uDeploy?
     
-Go to estore sDaas Modify Request http://estore.cisco.com/RequestCenter/servicecatalog/servicecatalog.do?route=offer&id=655 and order for the change of artifact Id .
+Go to estore [sDaas Modify](http://estore.cisco.com/RequestCenter/servicecatalog/servicecatalog.do?route=offer&id=655) Request and order for the change of artifact Id .
 
     
 ### <a id="9"> </a> How to deploy the code manually in uDeploy?
     
--  In uDeploy navigate to  Applications>  go to your application > in environment tab there will be
-    
-	environments > in that play button will be there please click on that.
+-  In uDeploy navigate to  Applications>  go to your application > in environment tab there will be environments > in that play button will be there please click on that.
 <img src="images/snap1.png" width="1200px">
     
-	However it is recommended to use uRelease to deploy to any non-Dev environment to not to violate SOX . 
+However it is recommended to use uRelease to deploy to any non-Dev environment to not to violate SOX . 
 
     
-### <a id="10"> </a> how to check the deployment log?
+### <a id="10"> </a> How to check the deployment log?
     
 -   In uDeploy navigate to Applications> go to your application > in environment tab there will be environments> click on the environment dropdown > click on view request there you will see the details log    
 <img src="images/deploy.png" width="1200px">
@@ -228,13 +226,13 @@ Go to estore sDaas Modify Request http://estore.cisco.com/RequestCenter/servicec
 
 ### <a id="17"> </a> After snapshot creation, Start Deployment button was not available.
     
--   Please contact you application admin and subscribe for Application admin AD group from http://adam.cisco.com
+-   Please contact you application admin and subscribe for Application admin AD group from [Adam](http://adam.cisco.com) page.
     
 ### <a id="18"> </a> Deployment successful in uDeploy, but latest war file is not updated to tomcat Dev/Stage/Prod server
     
 -   Please contact platform team .
--   LAE platform - lae-operations@cisco.com
--   AWS Team (CCIX) - gs-pss-wipro@cisco.com
+-   LAE platform - [lae-operations@cisco.com](mailto:lae-operations@cisco.com)
+-   AWS Team (CCIX) - [gs-pss-wipro@cisco.com](mailto:gs-pss-wipro@cisco.com)
     
 ### <a id="19"> </a> How to deploy an old version in udeploy
     
@@ -260,16 +258,16 @@ Go to estore sDaas Modify Request http://estore.cisco.com/RequestCenter/servicec
         
 ### <a id="23"> </a> Deployment is successful in uDeploy but the restart of CCIX application is not happening after deployment to dev/stage/lt/prod
     
--   Please contact AWS Team (gs-pss-wipro@cisco.com)
+-   Please contact AWS Team [gs-pss-wipro@cisco.com](mailto:gs-pss-wipro@cisco.com)
     
 ### <a id="24"> </a> Submitted SdaaS request  # ,  however it is still showing 0% complete.
     
--   Please contact PaaS  Team(citeis-paas-support@cisco.com)
+-   Please contact PaaS  Team [mailto:citeis-paas-support@cisco.com](mailto:citeis-paas-support@cisco.com)
     
     
 ### <a id="25"> </a>  For  one application, steps are not present in application process.
     
--   Please raise a case in Service Now (service offering -Release Automation)
+-   Please raise a case in [Service Now](https://cisco.service-now.com/) (service offering -Release Automation)
     
     
 ### <a id="26"> </a> User not able to see Application in pipeline view but stack is configured.
@@ -355,7 +353,7 @@ Step 3: add the atuomated task
     
 ### <a id="35"> </a> How to promote snapshot from Dev to Upper Environments?
     
--   Login to uRelease (https://release.cisco.com/login) using your CEC credentials  
+-   Login to [uRelease](https://release.cisco.com/login) using your CEC credentials  
 <img src="images/ur.png" width="1200px">
     
 -   Click on the Pipeline View and select the application from the drop down list that you wish to deploy
@@ -377,7 +375,7 @@ Step 3: add the atuomated task
     
 ### <a id="36"> </a> How to add a new environment in Udeploy and URelease?
     
--   Please use SDaaS Modify in Estore (http://estore.cisco.com/RequestCenter/servicecatalog/servicecatalog.do?route=offer&id=655)and request in "Life Cycle Details" section for the environment which you want to be added.
+-   Please use [SDaaS Modify](http://estore.cisco.com/RequestCenter/servicecatalog/servicecatalog.do?route=offer&id=655) in Estore and request in "Life Cycle Details" section for the environment which you want to be added.
     
 ### <a id="37"> </a> User not able to access uDeploy although he is a part of AD group specified while raising Sdaas stack. (AD Sync issue)
     
@@ -405,7 +403,7 @@ Step 3: add the atuomated task
 <img src="images/mail.png" width="1200px">
     
 ### <a id="40"> </a> How to check whether the application is SOX or NON-SOX application?
--   Login to uDeploy [https://deploy.cisco.com:8443/](https://deploy.cisco.com:8443/)
+-   Login to [uDeploy](https://deploy.cisco.com:8443/)
 
 <img src="images/ud_applist.png" width="1200px">
 
