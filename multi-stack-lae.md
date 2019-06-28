@@ -2,25 +2,26 @@
 
 This Document is for LAE platform Users to understand LAE multiple life cycles provision & deployment capabilities and it’s business benefits. Also explains about provisioning multiple custom life cycles, procuring SDaaS pipeline for multiple primary deploy life cycles and end-to-end SdaaS configuration. 
 
-### ++**What are custom life cycles in LAE platform and where do we use them?**++
+### **What are custom life cycles in LAE platform and where do we use them?**
 
 LAE platforms offers custom life cycles in addition to standard dev, stage, lt and prod life cycles. These custom life cycles are available to provision on both non-production and production environments. Some of the use cases of custom life cycles,
 - You can provision custom life cycles to achieve parallel development environments for a single application (Typical scenario is ERMO test cycles).
 - You can provision custom life cycles in PROD and use them for near zero down time deployments. Here are more details about it,
 
-  ++http://wikicentral.cisco.com/display/LAEDOCS/Blue+Green+Deployments++
+  http://wikicentral.cisco.com/display/LAEDOCS/Blue+Green+Deployments
 
 - You can provision custom life cycles in PROD and use them for A/B stack (Blue Green Deployments), where multiple concurrent application code versions can be active for your business users. More details are given in link,
 
-  ++http://wikicentral.cisco.com/display/LAEDOCS/Blue+Green+Deployments++
+  http://wikicentral.cisco.com/display/LAEDOCS/Blue+Green+Deployments
   
 **Note:** For CCIX to LAE migrating applications, ERMO test JVMs can be provisioned as custom life cycles of primary application.
 
-++**Example:**++  CCIX Primary application	=    Sample (dev, stage, lt & prod)
+**Example:** CCIX Primary application	=    Sample (dev, stage, lt & prod)
      ERMO Test Cycles 	= Ys1Sam (dev, stage & lt), Ys2Sam (dev, stage & lt)..Etc.
 	     LAE	Primary application	= Sample dev, stage, lt & prod, and ys1d, ys1s, ys1l and ys2d, ys2s, ys2l…….etc   
-					=> Here test cycles can be added as custom life cycles,
-++**What are SDaaS multiple primary deployment life cycles and what is the benefit?**++
+					=> Here test cycles can be added as custom life cycles.
+
+**What are SDaaS multiple primary deployment life cycles and what is the benefit?**
 
 In current SDaaS pipeline for an application you cannot choose more than one life cycle as primary for deployments.  So if you want to manage parallel development, build and release of a single application is not possible. 
 
@@ -86,7 +87,8 @@ New SdaaS Users:
 •	Choose existing LAE App and further down add addition custom life cycles to cart.
 •	Make sure to choose SRA pipeline as LAE multi pipeline sdaas template.
 
-++**Example SDaaS Stack creation in EStore:**++
+**Example SDaaS Stack creation in EStore:**
+
 1.	Add all required lifecycle details through estore -> Create LAE
 
  
@@ -102,7 +104,7 @@ New SdaaS Users:
  
 
 
-++**SDaaS Stack Configuration for Multiple Primary Deployment Life Cycles:**++
+**SDaaS Stack Configuration for Multiple Primary Deployment Life Cycles:**
 
 **Note:** There are few changes required from SDaaS configuration & deployment process perspective to utilize multiple deployment life cycle feature. Which are given below,
 
@@ -162,7 +164,7 @@ Jenkins -> Configuration for cjd2 : Update Branch Specifier (blank for 'any') - 
 
  
 
-++**Scenario 2: Multiple Pipelines with Dev, Stg, Dev1(cjd1), Stg1(cjs1), Dev2(cjd2), Stg2(cjs2), Lt & Prod**++
+**Scenario 2: Multiple Pipelines with Dev, Stg, Dev1(cjd1), Stg1(cjs1), Dev2(cjd2), Stg2(cjs2), Lt & Prod**
 
 ### **Step1: Deploy to Dev(Release) Lifecycle**
 
