@@ -177,7 +177,7 @@ Please check if "Import Versions Automatically" section has been checked in UDep
       
 ### <a id="8"> </a>  How  do I change the Artifact ID for my already provisioned application in uDeploy?
     
-Go to estore [sDaas Modify](http://estore.cisco.com/RequestCenter/servicecatalog/servicecatalog.do?route=offer&id=655) Request and order for the change of artifact Id .
+Go to estore <a href="http://estore.cisco.com/RequestCenter/servicecatalog/servicecatalog.do?route=offer&id=655" target="_blank">sDaas Modify</a> Request and order for the change of artifact Id .
 
     
 ### <a id="9"> </a> How to deploy the code manually in uDeploy?
@@ -225,7 +225,7 @@ However it is recommended to use uRelease to deploy to any non-Dev environment t
 
 ### <a id="17"> </a> After snapshot creation, Start Deployment button was not available.
     
--   Please contact you application admin and subscribe for Application admin AD group from [Adam](http://adam.cisco.com) page.
+-   Please contact you application admin and subscribe for Application admin AD group from <a href="http://adam.cisco.com/" target="_blank">ADAM</a> page.
     
 ### <a id="18"> </a> Deployment successful in uDeploy, but latest war file is not updated to tomcat Dev/Stage/Prod server
     
@@ -242,13 +242,13 @@ However it is recommended to use uRelease to deploy to any non-Dev environment t
 
 ### <a id="20"> </a> Version import is taking a lot of  time,  would be started 2 hours back and still in Executing status.
     
--   Please raise a case in [Service Now](https://cisco.service-now.com/) (Service Offering: Release Automation)   
+-   Please raise a case in <a href="https://cisco.service-now.com/" target="_blank">Service Now</a> (Service Offering: Release Automation)   
 <img src="images/ver_his.png" width="1200px">
  
     
 ### <a id="21"> </a> Deletion of a sDaaS stack required due to inappropriate information provided
     
--   Please go to [Estore](http://estore.cisco.com) search with SDaaS and there is delete request for deleting the SDaaS stack
+-   Please go to <a href="http://estore.cisco.com/" target="_blank">eStore</a> search with SDaaS and there is delete request for deleting the SDaaS stack
 <img src="images/sdaas_delete.png" width="1200px">
     
 ### <a id="22"> </a> Latest snapshot not getting updated quickly in uRelease
@@ -266,12 +266,12 @@ However it is recommended to use uRelease to deploy to any non-Dev environment t
     
 ### <a id="25"> </a>  For  one application, steps are not present in application process.
     
--   Please raise a case in [Service Now](https://cisco.service-now.com/) (Service Offering: Release Automation)
+-   Please raise a case in <a href="https://cisco.service-now.com/" target="_blank">Service Now</a> (Service Offering: Release Automation)
     
     
 ### <a id="26"> </a> User not able to see Application in pipeline view but stack is configured.
     
--   Application admin should check if the setup is fine .If everything looks good with the setup, check QA AD Group and ask user to request membership for that AD Group from [ADAM](http://adam.cisco.com/)
+-   Application admin should check if the setup is fine .If everything looks good with the setup, check QA AD Group and ask user to request membership for that AD Group from <a href="http://adam.cisco.com/" target="_blank">ADAM</a>
    
     
 ### <a id="27"> </a> Build is not proper as it is going to ext-release-local instead of ext-snapshot-local
@@ -351,7 +351,7 @@ Step 3: add the atuomated task
     
 ### <a id="35"> </a> How to promote snapshot from Dev to Upper Environments?
     
--   Login to [uRelease](https://release.cisco.com/login) using your CEC credentials  
+-   Login to <a href="https://release.cisco.com:8443/" target="_blank">IBM UrbanCode Release</a> using your CEC credentials  
 <img src="images/ur.png" width="1200px">
     
 -   Click on the Pipeline View and select the application from the drop down list that you wish to deploy
@@ -373,7 +373,7 @@ Step 3: add the atuomated task
     
 ### <a id="36"> </a> How to add a new environment in Udeploy and URelease?
     
--   Please use [SDaaS Modify](http://estore.cisco.com/RequestCenter/servicecatalog/servicecatalog.do?route=offer&id=655) in Estore and request in "Life Cycle Details" section for the environment which you want to be added.
+-   Please use <a href="http://estore.cisco.com/RequestCenter/servicecatalog/servicecatalog.do?route=offer&id=655" target="_blank">sDaas Modify</a> in Estore and request in "Life Cycle Details" section for the environment which you want to be added.
     
 ### <a id="37"> </a> User not able to access uDeploy although he is a part of AD group specified while raising Sdaas stack. (AD Sync issue)
     
@@ -401,7 +401,7 @@ Step 3: add the atuomated task
 <img src="images/mail.png" width="1200px">
     
 ### <a id="40"> </a> How to check whether the application is SOX or NON-SOX application?
--   Login to [uDeploy](https://deploy.cisco.com:8443/)
+-   Login to <a href="https://deploy.cisco.com:8443/" target="_blank">IBM UrbanCode Deploy</a>
 
 <img src="images/ud_applist.png" width="1200px">
 
@@ -412,7 +412,7 @@ Step 3: add the atuomated task
     
 ### <a id="41"> </a> How to request membership for particular AD group?
  
--   login to [ADAM](http://adam.cisco.com/)'s Account.
+-   login to <a href="http://adam.cisco.com/" target="_blank">ADAM</a>'s Account.
 -   Goto Group Search, search for AD Group name which you have or our team has shared with you.
 
 <img src="images/ad.png" width="1200px">
@@ -422,7 +422,7 @@ Step 3: add the atuomated task
     
 ### <a id="42"> </a> How to import version manually?
     
--   login to [uDeploy](https://deploy.cisco.com:8443/).
+-   login to <a href="https://deploy.cisco.com:8443/" target="_blank">IBM UrbanCode Deploy</a>.
 -   Navigate to the application and click on the application name
 -   There will be sub-tabs for that application such as Environment, History, Components etc, select the component tab and click on the component name
 -   Navigate to versions tab

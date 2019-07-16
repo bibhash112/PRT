@@ -7,7 +7,7 @@ weight: 1
 
 **UrbanCode Deploy**
 
-IBM UrbanCode <a href="https://deploy.cisco.com:8443/" target="_blank">Deploy</a>   is a tool for automating application deployments in multiple environments.
+<a href="https://deploy.cisco.com:8443/" target="_blank">IBM UrbanCode Deploy</a> is a tool for automating application deployments in multiple environments.
 
 We have uDeploy templates suporting Java, J2EE, Shell, PERL, BPEL, OBIEE, Informatica, Teradata, GoldenGate, Files, Mulesoft platform deployments.
 
@@ -20,7 +20,7 @@ This tool can be used to model processes that orchestrate complex deployments ac
 
 **UrbanCode Release**
 
-IBM UrbanCode  <a href="https://release.cisco.com:8443/" target="_blank">Release</a>, formerly called uRelease, is a collaborative release management tool that helps to handle the growing number and complexity of releases.
+<a href="https://release.cisco.com:8443/" target="_blank">IBM UrbanCode Release</a>, formerly called uRelease, is a collaborative release management tool that helps to handle the growing number and complexity of releases.
 
 You can plan, execute, and track a release through every stage of the delivery lifecycle.
 
